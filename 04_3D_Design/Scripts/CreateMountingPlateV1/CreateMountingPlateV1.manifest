@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "VISION SWINE",
+  "description": {"": "Build and inspect a mounting plate in a copy of Mounting Layout V1."},
+  "version": "1.0.0",
+  "supportedOS": "windows",
+  "editEnabled": true
+}

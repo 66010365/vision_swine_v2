@@ -1,0 +1,1599 @@
+{
+  "status": "cad_prototype_review_required",
+  "document": "VISION_SWINE_Round_Beam_Full_Assembly_V1",
+  "units": "mm",
+  "approved_for_print": false,
+  "approved_for_installation": false,
+  "strength_tested": false,
+  "source_report_sha256": {
+    "full-assembly-v1-report.json": "675eaa18ba59e3fbf7f402b4e189de38d9c75ea4d7ba96c8b67a8a60919aba75",
+    "round-beam-clamp-v1-report.json": "651f316e32ff3fb70bff5606347680770026af3d49975e3ade1fd96ce4163372"
+  },
+  "exclusions": [
+    "Beam_Clamp_V1 assembly",
+    "Adapter_V1_reference",
+    "Adapter upper insert 104",
+    "Adapter upper insert 90",
+    "Clamp M4x12 104",
+    "Clamp M4x12 90"
+  ],
+  "pcb_bounds_mm": [
+    [
+      15.999999999999993,
+      4.0,
+      -9.57
+    ],
+    [
+      116.0,
+      83.0,
+      -8.0
+    ]
+  ],
+  "round_placement": {
+    "local_to_assembly_matrix_cm": [
+      1.0,
+      0.0,
+      0.0,
+      9.7,
+      0.0,
+      1.0,
+      0.0,
+      4.5,
+      0.0,
+      0.0,
+      1.0,
+      0.6,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "adapter_center_xy_mm": [
+      97,
+      45
+    ],
+    "adapter_bottom_top_mm": [
+      6,
+      53
+    ],
+    "beam_axis": "Y",
+    "beam_diameter_mm": 50.0,
+    "beam_axis_point_mm": [
+      97,
+      45,
+      90.0
+    ]
+  },
+  "inventory": {
+    "round_parts": [
+      "Lower_Rubber_Liner",
+      "M4_insert_1",
+      "M4_insert_2",
+      "M4_screw_1",
+      "M4_screw_2",
+      "M8_bolt_1",
+      "M8_bolt_2",
+      "M8_bolt_3",
+      "M8_bolt_4",
+      "M8_nut_1",
+      "M8_nut_2",
+      "M8_nut_3",
+      "M8_nut_4",
+      "M8_washer_bottom_1",
+      "M8_washer_bottom_2",
+      "M8_washer_bottom_3",
+      "M8_washer_bottom_4",
+      "M8_washer_top_1",
+      "M8_washer_top_2",
+      "M8_washer_top_3",
+      "M8_washer_top_4",
+      "Round_Beam_Lower_Clamp_V1",
+      "Round_Beam_Reference_D50",
+      "Round_Beam_Upper_Clamp_V1",
+      "Upper_Rubber_Liner"
+    ],
+    "retained_adapter_count": 1,
+    "plate_v3_count": 1,
+    "case_solids": 3,
+    "camera_solids": 6,
+    "retained_fastener_solids": 30,
+    "board_basis": "Hash-matched Recovery STEP, source pose and measured PCB bounds"
+  },
+  "interface_bores_xy_d_z_mm": [
+    [
+      97.00000000000001,
+      20.0,
+      5.599999999999987,
+      1.5000000000000009,
+      6.000000000000001
+    ],
+    [
+      97.0,
+      20.0,
+      4.5,
+      6.0,
+      12.000000000000002
+    ],
+    [
+      97.00000000000001,
+      70.0,
+      5.599999999999987,
+      1.5000000000000009,
+      6.000000000000001
+    ],
+    [
+      97.0,
+      70.0,
+      4.5,
+      6.0,
+      12.000000000000002
+    ],
+    [
+      90.0,
+      45.0,
+      5.6,
+      43.0,
+      53.0
+    ],
+    [
+      90.0,
+      45.0,
+      4.5,
+      53.0,
+      59.0
+    ],
+    [
+      90.0,
+      45.0,
+      8.0,
+      59.0,
+      66.4415620212205
+    ],
+    [
+      90.0,
+      45.0,
+      4.000000000000002,
+      43.0,
+      53.0
+    ],
+    [
+      90.0,
+      45.0,
+      4.000000000000002,
+      45.0,
+      59.0
+    ],
+    [
+      103.99999999999999,
+      45.0,
+      5.599999999999998,
+      43.0,
+      53.0
+    ],
+    [
+      103.99999999999999,
+      45.0,
+      4.5,
+      53.0,
+      59.0
+    ],
+    [
+      103.99999999999999,
+      45.0,
+      8.0,
+      59.0,
+      66.4415620212205
+    ],
+    [
+      103.99999999999999,
+      45.0,
+      4.000000000000002,
+      43.0,
+      53.0
+    ],
+    [
+      103.99999999999999,
+      45.0,
+      4.000000000000002,
+      45.0,
+      59.0
+    ],
+    [
+      56.99999999999999,
+      34.0,
+      9.000000000000004,
+      91.0,
+      109.0
+    ],
+    [
+      56.99999999999999,
+      34.0,
+      9.000000000000004,
+      71.0,
+      89.0
+    ],
+    [
+      56.99999999999999,
+      34.0,
+      7.999999999999998,
+      60.60000000000001,
+      110.60000000000001
+    ],
+    [
+      56.99999999999999,
+      34.0,
+      8.399999999999999,
+      109.0,
+      110.60000000000001
+    ],
+    [
+      56.99999999999999,
+      34.0,
+      8.399999999999999,
+      69.4,
+      71.0
+    ],
+    [
+      56.99999999999999,
+      34.0,
+      8.100000000000005,
+      62.9,
+      69.4
+    ],
+    [
+      56.99999999999999,
+      56.0,
+      9.000000000000004,
+      91.0,
+      109.0
+    ],
+    [
+      56.99999999999999,
+      56.0,
+      9.000000000000004,
+      71.0,
+      89.0
+    ],
+    [
+      56.99999999999999,
+      56.0,
+      7.999999999999998,
+      60.60000000000001,
+      110.60000000000001
+    ],
+    [
+      56.99999999999999,
+      56.0,
+      8.399999999999999,
+      109.0,
+      110.60000000000001
+    ],
+    [
+      56.99999999999999,
+      56.0,
+      8.399999999999999,
+      69.4,
+      71.0
+    ],
+    [
+      56.99999999999999,
+      56.0,
+      8.100000000000005,
+      62.9,
+      69.4
+    ],
+    [
+      137.0,
+      34.0,
+      9.000000000000004,
+      91.0,
+      109.0
+    ],
+    [
+      137.0,
+      34.0,
+      9.000000000000004,
+      71.0,
+      89.0
+    ],
+    [
+      137.0,
+      34.0,
+      8.000000000000007,
+      60.60000000000001,
+      110.60000000000001
+    ],
+    [
+      137.0,
+      34.0,
+      8.399999999999999,
+      109.0,
+      110.60000000000001
+    ],
+    [
+      137.0,
+      34.0,
+      8.399999999999999,
+      69.4,
+      71.0
+    ],
+    [
+      137.0,
+      34.0,
+      8.100000000000005,
+      62.9,
+      69.4
+    ],
+    [
+      137.0,
+      56.0,
+      9.000000000000004,
+      91.0,
+      109.0
+    ],
+    [
+      137.0,
+      56.0,
+      9.000000000000004,
+      71.0,
+      89.0
+    ],
+    [
+      137.0,
+      56.0,
+      8.000000000000007,
+      60.60000000000001,
+      110.60000000000001
+    ],
+    [
+      137.0,
+      56.0,
+      8.399999999999999,
+      109.0,
+      110.60000000000001
+    ],
+    [
+      137.0,
+      56.0,
+      8.399999999999999,
+      69.4,
+      71.0
+    ],
+    [
+      137.0,
+      56.0,
+      8.100000000000005,
+      62.9,
+      69.4
+    ]
+  ],
+  "bearing_area_mm2": {
+    "plate": {
+      "z_mm": 6,
+      "measured": 1627.3061978060716,
+      "expected": 1627.3061978060712
+    },
+    "round_lower": {
+      "z_mm": 53,
+      "measured": 667.3061978060712,
+      "expected": 667.3061978060712
+    }
+  },
+  "lens": {
+    "degrees_from_down": 0.0,
+    "front_mm": [
+      173.0,
+      73.0,
+      -46.0
+    ]
+  },
+  "retained_mount_axis_errors_mm": [
+    8.379058453350832e-15,
+    5.687116766346677e-15,
+    1.5888218580782548e-14,
+    1.464821375527116e-14,
+    7.105427357601002e-15,
+    3.552713678800501e-15
+  ],
+  "usb_stub": {
+    "nearest_round_part": "Round_Beam_Lower_Clamp_V1",
+    "distance_mm": 41.16902931487188,
+    "lower_bound_over_slot_travel_mm": 37.16902931487188
+  },
+  "changed_interface_hits": {},
+  "tool_access": [
+    {
+      "tool": "M8 head socket",
+      "stage": "before_plate",
+      "xy_mm": [
+        57.0,
+        34.0
+      ],
+      "z_range_mm": [
+        110.60000000000001,
+        164.0
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "M8 head socket",
+      "stage": "after_plate",
+      "xy_mm": [
+        57.0,
+        34.0
+      ],
+      "z_range_mm": [
+        110.60000000000001,
+        164.0
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": false,
+      "hits": []
+    },
+    {
+      "tool": "M8 nut socket",
+      "stage": "before_plate",
+      "xy_mm": [
+        57.0,
+        34.0
+      ],
+      "z_range_mm": [
+        -86.0,
+        69.4
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "M8 nut socket",
+      "stage": "after_plate",
+      "xy_mm": [
+        57.0,
+        34.0
+      ],
+      "z_range_mm": [
+        -86.0,
+        69.4
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": false,
+      "hits": [
+        {
+          "part": "Mounting_Plate_V3 assembly:1+Mounting_Plate_V3:1/Mounting Plate V3",
+          "volume_mm3": 1884.9555921539572
+        },
+        {
+          "part": "Jetson_Case_V5S assembly:1+Jetson_Nano_Case_V5:1/Body1",
+          "volume_mm3": 942.4777960769786
+        },
+        {
+          "part": "Jetson_Case_V5S assembly:1+Jetson_Nano_Top_Cover:1/Body1",
+          "volume_mm3": 415.06435187142654
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+142-13449-1000-B01-SKU0000:1/Body1",
+          "volume_mm3": 475.4244419308672
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+115-2628-000_3:1/Body1",
+          "volume_mm3": 4.764038208755911
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+LS_ICES_I0925X0040_CLASS_B:1/Body1",
+          "volume_mm3": 0.07184295962190887
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+115-1821-000_1:1/Body1",
+          "volume_mm3": 0.35327064959044535
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+LOGO_SILK_POSTAL_ADDRESS:1/Body1",
+          "volume_mm3": 0.07231516254308214
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+320-0965-000_3:1/Body1",
+          "volume_mm3": 70.38182289314376
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:48/Body1",
+          "volume_mm3": 0.2918663827391983
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:49/Body1",
+          "volume_mm3": 0.2918663827392036
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:50/Body1",
+          "volume_mm3": 0.2918663827392036
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:54/Body1",
+          "volume_mm3": 0.29186638273920396
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13448_PORG_MODULE_PCB_ASSY:1+600-13448_PORG_MODULE_PCB_ASSY:1+142-63448-1GEN_A00:1/Body1",
+          "volume_mm3": 951.2265570897383
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+682-13450_PORG_ME_THER_ASSY:1+PORG_HSK_ASSY:1+110-0111-000:1/Body1",
+          "volume_mm3": 2434.006734385037
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+682-13450_PORG_ME_THER_ASSY:1+PORG_LEAF_SPRING_DRAWN:1/Body1",
+          "volume_mm3": 92.04377420201921
+        }
+      ]
+    },
+    {
+      "tool": "M8 head socket",
+      "stage": "before_plate",
+      "xy_mm": [
+        57.0,
+        56.0
+      ],
+      "z_range_mm": [
+        110.60000000000001,
+        164.0
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "M8 head socket",
+      "stage": "after_plate",
+      "xy_mm": [
+        57.0,
+        56.0
+      ],
+      "z_range_mm": [
+        110.60000000000001,
+        164.0
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": false,
+      "hits": []
+    },
+    {
+      "tool": "M8 nut socket",
+      "stage": "before_plate",
+      "xy_mm": [
+        57.0,
+        56.0
+      ],
+      "z_range_mm": [
+        -86.0,
+        69.4
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "M8 nut socket",
+      "stage": "after_plate",
+      "xy_mm": [
+        57.0,
+        56.0
+      ],
+      "z_range_mm": [
+        -86.0,
+        69.4
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": false,
+      "hits": [
+        {
+          "part": "Mounting_Plate_V3 assembly:1+Mounting_Plate_V3:1/Mounting Plate V3",
+          "volume_mm3": 1884.9555921539572
+        },
+        {
+          "part": "Jetson_Case_V5S assembly:1+Jetson_Nano_Case_V5:1/Body1",
+          "volume_mm3": 942.4777960769786
+        },
+        {
+          "part": "Jetson_Case_V5S assembly:1+Jetson_Nano_Top_Cover:1/Body1",
+          "volume_mm3": 753.72610117564
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+142-13449-1000-B01-SKU0000:1/Body1",
+          "volume_mm3": 493.0327545949733
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body1",
+          "volume_mm3": 852.2878242174169
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body79",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body80",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body81",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body82",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body83",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body84",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body85",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body86",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body87",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body88",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body89",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body90",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body91",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body163",
+          "volume_mm3": 0.0012057846391428872
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body164",
+          "volume_mm3": 0.009669541838788421
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body165",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body166",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body167",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body168",
+          "volume_mm3": 0.009800000000000211
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body169",
+          "volume_mm3": 0.009800000000000211
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body170",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body171",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body172",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body173",
+          "volume_mm3": 0.009800000000000211
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body174",
+          "volume_mm3": 0.009800000000000211
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body175",
+          "volume_mm3": 0.009800000000000211
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body176",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body177",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body178",
+          "volume_mm3": 0.009800000000000211
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body179",
+          "volume_mm3": 0.009800000000000211
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body180",
+          "volume_mm3": 0.009800000000000211
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body181",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body182",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body183",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body184",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body185",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body186",
+          "volume_mm3": 0.009799999999999899
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body235",
+          "volume_mm3": 0.0010062164122346742
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body236",
+          "volume_mm3": 0.0013233624926105479
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body237",
+          "volume_mm3": 0.0014987778942515252
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body238",
+          "volume_mm3": 0.0015337950130718783
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body244",
+          "volume_mm3": 0.001182631904401514
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1656-000_3:1/Body245",
+          "volume_mm3": 0.0014286778193086382
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+090-0231-000_1:1/Body1",
+          "volume_mm3": 1.319568922283855
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+LOGO_SILK_CE_I0175X0160:1/Body1",
+          "volume_mm3": 0.14031062790934273
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+LOGO_SILK_CE_I0175X0160:1/Body2",
+          "volume_mm3": 0.17314172541836917
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+LOGO_SILK_ROHS_I0300X0153:1/Body1",
+          "volume_mm3": 0.05445884792360349
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+LOGO_SILK_ROHS_I0300X0153:1/Body5",
+          "volume_mm3": 0.06297993731072343
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+LOGO_SILK_ROHS_I0300X0153:1/Body13",
+          "volume_mm3": 0.003802408291757982
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+LOGO_SILK_ROHS_I0300X0153:1/Body14",
+          "volume_mm3": 0.015195706705299636
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+LOGO_SILK_ROHS_D050_CHINA:1/Body1",
+          "volume_mm3": 0.25679819769289736
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+LOGO_SILK_ROHS_D050_CHINA:1/Body2",
+          "volume_mm3": 0.08545038232469924
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+LOGO_SILK_ROHS_D050_CHINA:1/Body3",
+          "volume_mm3": 0.047011818879399384
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+LOGO_SILK_ROHS_D050_CHINA:1/Body4",
+          "volume_mm3": 0.23858017485612956
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+300-1128-000_1:2/Body1",
+          "volume_mm3": 2.6763909143744162
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+032-1441-000_1:2/Body1",
+          "volume_mm3": 17.37994775184759
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:6/Body1",
+          "volume_mm3": 0.19336599873919902
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:14/Body1",
+          "volume_mm3": 0.19336599873919902
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:42/Body1",
+          "volume_mm3": 0.19336599873919902
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:43/Body1",
+          "volume_mm3": 0.19336599873919902
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:50/Body1",
+          "volume_mm3": 0.19336599873919902
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:51/Body1",
+          "volume_mm3": 0.19336599873919902
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:32/Body1",
+          "volume_mm3": 0.29186638273920373
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:33/Body1",
+          "volume_mm3": 0.13250710924770884
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:34/Body1",
+          "volume_mm3": 0.29186638273920373
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:35/Body1",
+          "volume_mm3": 0.29186638273920373
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:36/Body1",
+          "volume_mm3": 0.29186638273920373
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:37/Body1",
+          "volume_mm3": 0.29186638273920373
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:38/Body1",
+          "volume_mm3": 0.29186638273920373
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:39/Body1",
+          "volume_mm3": 0.29186638273920373
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:57/Body1",
+          "volume_mm3": 0.29186638273920373
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:58/Body1",
+          "volume_mm3": 0.29186638273920373
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:59/Body1",
+          "volume_mm3": 0.29186638273920373
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H060:60/Body1",
+          "volume_mm3": 0.29186638273920373
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:79/Body1",
+          "volume_mm3": 0.19336599873919902
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:80/Body1",
+          "volume_mm3": 0.19336599873919902
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:82/Body1",
+          "volume_mm3": 0.14106292112268418
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:83/Body1",
+          "volume_mm3": 0.19336599873919902
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:84/Body1",
+          "volume_mm3": 0.19336599873919902
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:85/Body1",
+          "volume_mm3": 0.19336599873919902
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:86/Body1",
+          "volume_mm3": 0.19336599873919902
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+0402_H040:95/Body1",
+          "volume_mm3": 0.19336599873919902
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+090-0231-000_1:5/Body1",
+          "volume_mm3": 1.2509233992501956
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+090-0231-000_1:6/Body1",
+          "volume_mm3": 0.10082558581761186
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+090-0231-000_1:8/Body1",
+          "volume_mm3": 0.11435318581653917
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+090-0231-000_1:9/Body1",
+          "volume_mm3": 1.3827510927260038
+        },
+        {
+          "part": "Jetson Nano B01 registered STEP:1+675-13450_PORG_DEV_KIT_TOP_ASSY:1+642-13450_PORG_SYS_BOM:1+699-13448_PORG_MODULE_PCB_ASSY:1+600-13448_PORG_MODULE_PCB_ASSY:1+142-63448-1GEN_A00:1/Body1",
+          "volume_mm3": 44.31055860941931
+        }
+      ]
+    },
+    {
+      "tool": "M8 head socket",
+      "stage": "before_plate",
+      "xy_mm": [
+        137.0,
+        34.0
+      ],
+      "z_range_mm": [
+        110.60000000000001,
+        164.0
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "M8 head socket",
+      "stage": "after_plate",
+      "xy_mm": [
+        137.0,
+        34.0
+      ],
+      "z_range_mm": [
+        110.60000000000001,
+        164.0
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": false,
+      "hits": []
+    },
+    {
+      "tool": "M8 nut socket",
+      "stage": "before_plate",
+      "xy_mm": [
+        137.0,
+        34.0
+      ],
+      "z_range_mm": [
+        -86.0,
+        69.4
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "M8 nut socket",
+      "stage": "after_plate",
+      "xy_mm": [
+        137.0,
+        34.0
+      ],
+      "z_range_mm": [
+        -86.0,
+        69.4
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": false,
+      "hits": [
+        {
+          "part": "Mounting_Plate_V3 assembly:1+Mounting_Plate_V3:1/Mounting Plate V3",
+          "volume_mm3": 1878.9387182062676
+        },
+        {
+          "part": "Jetson_Case_V5S assembly:1+Jetson_Nano_Case_V5:1/Body1",
+          "volume_mm3": 302.0783630291664
+        },
+        {
+          "part": "M4 fasteners and metal inserts (reference):1/M4 upper washer 3",
+          "volume_mm3": 13.966838863345036
+        },
+        {
+          "part": "M4 fasteners and metal inserts (reference):1/M4 lower washer 3",
+          "volume_mm3": 13.966838863345036
+        },
+        {
+          "part": "M4 fasteners and metal inserts (reference):1/M4 lower nut 3",
+          "volume_mm3": 23.558047341628836
+        },
+        {
+          "part": "M4 fasteners and metal inserts (reference):1/Equipment M4 reference 3",
+          "volume_mm3": 48.28273921558725
+        },
+        {
+          "part": "M4 fasteners and metal inserts (reference):1/M4 upper washer 4",
+          "volume_mm3": 8.850730991989844
+        },
+        {
+          "part": "M4 fasteners and metal inserts (reference):1/M4 lower washer 4",
+          "volume_mm3": 8.850730991989844
+        },
+        {
+          "part": "M4 fasteners and metal inserts (reference):1/M4 lower nut 4",
+          "volume_mm3": 11.19955796853839
+        },
+        {
+          "part": "M4 fasteners and metal inserts (reference):1/Equipment M4 reference 4",
+          "volume_mm3": 22.00263558655481
+        }
+      ]
+    },
+    {
+      "tool": "M8 head socket",
+      "stage": "before_plate",
+      "xy_mm": [
+        137.0,
+        56.0
+      ],
+      "z_range_mm": [
+        110.60000000000001,
+        164.0
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "M8 head socket",
+      "stage": "after_plate",
+      "xy_mm": [
+        137.0,
+        56.0
+      ],
+      "z_range_mm": [
+        110.60000000000001,
+        164.0
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": false,
+      "hits": []
+    },
+    {
+      "tool": "M8 nut socket",
+      "stage": "before_plate",
+      "xy_mm": [
+        137.0,
+        56.0
+      ],
+      "z_range_mm": [
+        -86.0,
+        69.4
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "M8 nut socket",
+      "stage": "after_plate",
+      "xy_mm": [
+        137.0,
+        56.0
+      ],
+      "z_range_mm": [
+        -86.0,
+        69.4
+      ],
+      "diameter_mm": 20,
+      "required_for_sequence": false,
+      "hits": [
+        {
+          "part": "Mounting_Plate_V3 assembly:1+Mounting_Plate_V3:1/Mounting Plate V3",
+          "volume_mm3": 1511.2240094695946
+        }
+      ]
+    },
+    {
+      "tool": "M4 key before liner and beam",
+      "stage": "lower_and_adapter_before_liners",
+      "xy_mm": [
+        90.0,
+        45
+      ],
+      "z_range_mm": [
+        63.000000000000014,
+        164.0
+      ],
+      "diameter_mm": 3,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "M4 key before liner and beam",
+      "stage": "closed_clamp_before_plate",
+      "xy_mm": [
+        90.0,
+        45
+      ],
+      "z_range_mm": [
+        63.000000000000014,
+        164.0
+      ],
+      "diameter_mm": 3,
+      "required_for_sequence": false,
+      "hits": [
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Upper_Clamp_V1:1/Body1",
+          "volume_mm3": 58.150590674346354
+        },
+        {
+          "part": "Round beam clamp assembly:1+Upper_Rubber_Liner:1/Body1",
+          "volume_mm3": 7.334892490030465
+        },
+        {
+          "part": "Round beam clamp assembly:1+Lower_Rubber_Liner:1/Body1",
+          "volume_mm3": 7.353965509823319
+        },
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Reference_D50:1/Body1",
+          "volume_mm3": 338.87058584039096
+        }
+      ]
+    },
+    {
+      "tool": "M4 key before liner and beam",
+      "stage": "after_plate",
+      "xy_mm": [
+        90.0,
+        45
+      ],
+      "z_range_mm": [
+        63.000000000000014,
+        164.0
+      ],
+      "diameter_mm": 3,
+      "required_for_sequence": false,
+      "hits": [
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Upper_Clamp_V1:1/Body1",
+          "volume_mm3": 58.150590674346354
+        },
+        {
+          "part": "Round beam clamp assembly:1+Upper_Rubber_Liner:1/Body1",
+          "volume_mm3": 7.334892490030465
+        },
+        {
+          "part": "Round beam clamp assembly:1+Lower_Rubber_Liner:1/Body1",
+          "volume_mm3": 7.353965509823319
+        },
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Reference_D50:1/Body1",
+          "volume_mm3": 338.87058584039096
+        }
+      ]
+    },
+    {
+      "tool": "M4 key before liner and beam",
+      "stage": "lower_and_adapter_before_liners",
+      "xy_mm": [
+        104.0,
+        45
+      ],
+      "z_range_mm": [
+        63.000000000000014,
+        164.0
+      ],
+      "diameter_mm": 3,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "M4 key before liner and beam",
+      "stage": "closed_clamp_before_plate",
+      "xy_mm": [
+        104.0,
+        45
+      ],
+      "z_range_mm": [
+        63.000000000000014,
+        164.0
+      ],
+      "diameter_mm": 3,
+      "required_for_sequence": false,
+      "hits": [
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Upper_Clamp_V1:1/Body1",
+          "volume_mm3": 58.38455092697672
+        },
+        {
+          "part": "Round beam clamp assembly:1+Upper_Rubber_Liner:1/Body1",
+          "volume_mm3": 7.3197979214945015
+        },
+        {
+          "part": "Round beam clamp assembly:1+Lower_Rubber_Liner:1/Body1",
+          "volume_mm3": 7.341345720657859
+        },
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Reference_D50:1/Body1",
+          "volume_mm3": 338.87058584039505
+        }
+      ]
+    },
+    {
+      "tool": "M4 key before liner and beam",
+      "stage": "after_plate",
+      "xy_mm": [
+        104.0,
+        45
+      ],
+      "z_range_mm": [
+        63.000000000000014,
+        164.0
+      ],
+      "diameter_mm": 3,
+      "required_for_sequence": false,
+      "hits": [
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Upper_Clamp_V1:1/Body1",
+          "volume_mm3": 58.38455092697672
+        },
+        {
+          "part": "Round beam clamp assembly:1+Upper_Rubber_Liner:1/Body1",
+          "volume_mm3": 7.3197979214945015
+        },
+        {
+          "part": "Round beam clamp assembly:1+Lower_Rubber_Liner:1/Body1",
+          "volume_mm3": 7.341345720657859
+        },
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Reference_D50:1/Body1",
+          "volume_mm3": 338.87058584039505
+        }
+      ]
+    },
+    {
+      "tool": "Plate flange M4 driver",
+      "stage": "before_plate",
+      "xy_mm": [
+        97,
+        20
+      ],
+      "z_range_mm": [
+        17,
+        47
+      ],
+      "diameter_mm": 10,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "Plate flange M4 overhead approach",
+      "stage": "before_plate",
+      "xy_mm": [
+        97,
+        20
+      ],
+      "z_range_mm": [
+        17,
+        164.0
+      ],
+      "diameter_mm": 10,
+      "required_for_sequence": false,
+      "hits": [
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Reference_D50:1/Body1",
+          "volume_mm3": 3905.95050692303
+        }
+      ]
+    },
+    {
+      "tool": "Plate flange M4 driver",
+      "stage": "after_plate",
+      "xy_mm": [
+        97,
+        20
+      ],
+      "z_range_mm": [
+        17,
+        47
+      ],
+      "diameter_mm": 10,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "Plate flange M4 overhead approach",
+      "stage": "after_plate",
+      "xy_mm": [
+        97,
+        20
+      ],
+      "z_range_mm": [
+        17,
+        164.0
+      ],
+      "diameter_mm": 10,
+      "required_for_sequence": false,
+      "hits": [
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Reference_D50:1/Body1",
+          "volume_mm3": 3905.95050692303
+        }
+      ]
+    },
+    {
+      "tool": "Plate flange M4 driver",
+      "stage": "before_plate",
+      "xy_mm": [
+        97,
+        70
+      ],
+      "z_range_mm": [
+        17,
+        47
+      ],
+      "diameter_mm": 10,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "Plate flange M4 overhead approach",
+      "stage": "before_plate",
+      "xy_mm": [
+        97,
+        70
+      ],
+      "z_range_mm": [
+        17,
+        164.0
+      ],
+      "diameter_mm": 10,
+      "required_for_sequence": false,
+      "hits": [
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Reference_D50:1/Body1",
+          "volume_mm3": 3905.9505069230336
+        }
+      ]
+    },
+    {
+      "tool": "Plate flange M4 driver",
+      "stage": "after_plate",
+      "xy_mm": [
+        97,
+        70
+      ],
+      "z_range_mm": [
+        17,
+        47
+      ],
+      "diameter_mm": 10,
+      "required_for_sequence": true,
+      "hits": []
+    },
+    {
+      "tool": "Plate flange M4 overhead approach",
+      "stage": "after_plate",
+      "xy_mm": [
+        97,
+        70
+      ],
+      "z_range_mm": [
+        17,
+        164.0
+      ],
+      "diameter_mm": 10,
+      "required_for_sequence": false,
+      "hits": [
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Reference_D50:1/Body1",
+          "volume_mm3": 3905.9505069230336
+        }
+      ]
+    }
+  ],
+  "flange_driver_routes": [
+    {
+      "xy_mm": [
+        97,
+        20
+      ],
+      "stage": "before_plate",
+      "side_sweep_bounds_mm": [
+        [
+          92,
+          -70.0,
+          17
+        ],
+        [
+          102,
+          25,
+          47
+        ]
+      ],
+      "side_hits": [],
+      "overhead_hits": [
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Reference_D50:1/Body1",
+          "volume_mm3": 3905.95050692303
+        }
+      ],
+      "accessible": true
+    },
+    {
+      "xy_mm": [
+        97,
+        20
+      ],
+      "stage": "after_plate",
+      "side_sweep_bounds_mm": [
+        [
+          92,
+          -70.0,
+          17
+        ],
+        [
+          102,
+          25,
+          47
+        ]
+      ],
+      "side_hits": [],
+      "overhead_hits": [
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Reference_D50:1/Body1",
+          "volume_mm3": 3905.95050692303
+        }
+      ],
+      "accessible": true
+    },
+    {
+      "xy_mm": [
+        97,
+        70
+      ],
+      "stage": "before_plate",
+      "side_sweep_bounds_mm": [
+        [
+          92,
+          65,
+          17
+        ],
+        [
+          102,
+          160.0,
+          47
+        ]
+      ],
+      "side_hits": [],
+      "overhead_hits": [
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Reference_D50:1/Body1",
+          "volume_mm3": 3905.9505069230336
+        }
+      ],
+      "accessible": true
+    },
+    {
+      "xy_mm": [
+        97,
+        70
+      ],
+      "stage": "after_plate",
+      "side_sweep_bounds_mm": [
+        [
+          92,
+          65,
+          17
+        ],
+        [
+          102,
+          160.0,
+          47
+        ]
+      ],
+      "side_hits": [],
+      "overhead_hits": [
+        {
+          "part": "Round beam clamp assembly:1+Round_Beam_Reference_D50:1/Body1",
+          "volume_mm3": 3905.9505069230336
+        }
+      ],
+      "accessible": true
+    }
+  ],
+  "sequence": [
+    "Seat M4 inserts. Fit lower clamp to adapter using both M4x14 screws before liners or beam.",
+    "Fit liners, beam and upper clamp. Fit and tighten four M8x50 bolts before attaching equipment.",
+    "Bring V3 equipment plate to adapter and drive both M4x10 screws from above the flange; use the measured clear driver route for each screw.",
+    "For service remove plate first for blocked M8 approaches; remove upper clamp, beam and liner before accessing the two M4x14 screws."
+  ],
+  "scope": "Changed interfaces and straight tool approaches. Unchanged internal contacts inherited from source reports. USB is the modelled stub; actual cable bend and handle swing unmeasured.",
+  "blocked_after_plate": [
+    {
+      "tool": "M8 nut socket",
+      "xy_mm": [
+        57.0,
+        34.0
+      ]
+    },
+    {
+      "tool": "M8 nut socket",
+      "xy_mm": [
+        57.0,
+        56.0
+      ]
+    },
+    {
+      "tool": "M8 nut socket",
+      "xy_mm": [
+        137.0,
+        34.0
+      ]
+    },
+    {
+      "tool": "M8 nut socket",
+      "xy_mm": [
+        137.0,
+        56.0
+      ]
+    },
+    {
+      "tool": "M4 key before liner and beam",
+      "xy_mm": [
+        90.0,
+        45
+      ]
+    },
+    {
+      "tool": "M4 key before liner and beam",
+      "xy_mm": [
+        104.0,
+        45
+      ]
+    },
+    {
+      "tool": "Plate flange M4 overhead approach",
+      "xy_mm": [
+        97,
+        20
+      ]
+    },
+    {
+      "tool": "Plate flange M4 overhead approach",
+      "xy_mm": [
+        97,
+        70
+      ]
+    }
+  ]
+}

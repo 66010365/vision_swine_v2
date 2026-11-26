@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "VISION SWINE",
+  "description": {"": "Build the unsaved round-beam assembly from the verified full assembly and round clamp."},
+  "version": "1.0.0",
+  "supportedOS": "windows",
+  "editEnabled": true
+}

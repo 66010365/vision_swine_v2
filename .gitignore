@@ -1,0 +1,79 @@
+
+# ========================================
+# VISION SWINE - Project Handover
+# ========================================
+
+# Python environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Node.js dependencies
+node_modules/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Sensitive configuration
+.env
+.env.*
+!.env.example
+sftp.json
+*.pem
+*.key
+*.pfx
+
+# Logs and temporary files
+*.log
+*.tmp
+*.part
+*.upload
+
+# Jetson Nano runtime recordings
+/01_Jetson_Nano/Source_Code/outputs/recordings/*
+!/01_Jetson_Nano/Source_Code/outputs/recordings/.gitkeep
+
+# PostgreSQL data and backups
+/03_Backend_NAS/Source_Code/database/postgres18/
+/03_Backend_NAS/Source_Code/database/backups/*
+*.dump
+
+# NAS runtime storage
+/03_Backend_NAS/Source_Code/storage/images/*
+/03_Backend_NAS/Source_Code/storage/videos/*
+!/03_Backend_NAS/Source_Code/storage/images/.gitkeep
+!/03_Backend_NAS/Source_Code/storage/videos/.gitkeep
+
+# NAS logs
+/03_Backend_NAS/Source_Code/logs/*
+!/03_Backend_NAS/Source_Code/logs/.gitkeep
+
+# Large datasets - GitHub Releases
+/02_Estimation/Source_Code/dataset-2/dataset/PigRGB-Weight/RGB_9579/fold*.zip
+/02_Estimation/Source_Code/dataset-2/dataset/PigRGB-Weight/RGB_MASK_3394/RGB_3394/*.zip
+/02_Estimation/Source_Code/dataset-2/dataset/PigRGB-Weight/transfer_learning_dataset/images/*.zip
+/02_Estimation/Source_Code/dataset-2/dataset/segmentation_training.zip
+
+# Microsoft Office temporary files
+~$*
+
+# Dataset-2 Output Archives - GitHub Releases
+/02_Estimation/Source_Code/dataset-2/output/segmentation/masks.zip
+/02_Estimation/Source_Code/dataset-2/output/segmentation/refined_masks.zip
+/02_Estimation/Source_Code/dataset-2/output/segmentation/segmentation_review.zip
+/02_Estimation/Source_Code/dataset-2/output/segmentation/target_mask.zip
+/02_Estimation/Source_Code/dataset-2/output/feature_extraction/main_path_skeleton.zip
+/02_Estimation/Source_Code/dataset-2/output/feature_extraction/raw_skeleton.zip
+
+/01_Jetson_Nano/Documentation/VISION_SWINE_Jetson_Nano_Technical_Manual.*

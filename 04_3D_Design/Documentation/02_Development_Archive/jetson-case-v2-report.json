@@ -1,0 +1,199 @@
+{
+  "status": "review_required",
+  "timestamp": "2026-11-25T21:02:11.069231",
+  "units": "mm",
+  "approved_for_print": false,
+  "scope": "Initial as-built geometry only",
+  "frame": {
+    "origin_assembly_mm": [
+      -4.0000000000000036,
+      -17.0,
+      0.0
+    ],
+    "x": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "y": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "z": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "step_sha256": "054c594a8b08185f8aab22e30976f7d7df3f16771455a1485381111e068f279d",
+  "case_bounds_mm": [
+    [
+      -4.0,
+      -4.0,
+      -8.000000000000002
+    ],
+    [
+      104.0,
+      83.00000000000001,
+      14.999999999999998
+    ]
+  ],
+  "single_connected_solid": true,
+  "geometry_samples": {
+    "minus_x": true,
+    "plus_x": true,
+    "plus_y": true,
+    "open_minus_y": true,
+    "clear_interior": true,
+    "blind_support_1": true,
+    "blind_support_2": true,
+    "blind_support_3": true,
+    "blind_support_4": true
+  },
+  "case_board_interferences": [],
+  "top_install_remove": {
+    "method": "continuous vertical swept body bounding boxes; bare board, fasteners removed",
+    "travel_mm": 18.2300026912717,
+    "status": "clear",
+    "potential_obstructions": []
+  },
+  "minus_y_access": {
+    "housing_corridors": [
+      {
+        "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+064-0377-000_2:1/Body1",
+        "housing_sweep": [
+          [
+            1.5000000000000036,
+            -5.0,
+            -1.9299999999999997
+          ],
+          [
+            11.580000000000004,
+            13.129999999999999,
+            12.570000000000002
+          ]
+        ],
+        "possible_case_obstacles": []
+      },
+      {
+        "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1368-000_1:1/Body1",
+        "housing_sweep": [
+          [
+            88.00000000000075,
+            -5.0,
+            -0.10380000182967342
+          ],
+          [
+            96.00000000000178,
+            6.300000000000839,
+            4.3562028274435
+          ]
+        ],
+        "possible_case_obstacles": []
+      },
+      {
+        "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+064-0374-000_2:1/Body31",
+        "housing_sweep": [
+          [
+            14.800000000000004,
+            -5.0,
+            -0.9038000000000004
+          ],
+          [
+            32.900000000000006,
+            16.52499999999711,
+            20.9462
+          ]
+        ],
+        "possible_case_obstacles": []
+      },
+      {
+        "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+064-0404-000_1:1/Body1",
+        "housing_sweep": [
+          [
+            68.8500000000019,
+            -5.0,
+            -2.2300026912717
+          ],
+          [
+            85.0500000000045,
+            19.85,
+            15.21999279541
+          ]
+        ],
+        "possible_case_obstacles": []
+      },
+      {
+        "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:1/Body19",
+        "housing_sweep": [
+          [
+            51.50500000000089,
+            -5.0,
+            -1.6799995842503286
+          ],
+          [
+            67.69499999999913,
+            15.9499999999996,
+            17.940000000000563
+          ]
+        ],
+        "possible_case_obstacles": []
+      },
+      {
+        "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:1/Body20",
+        "housing_sweep": [
+          [
+            52.999999999998465,
+            -5.0,
+            7.79000000000103
+          ],
+          [
+            66.20000000000155,
+            9.749999999999,
+            12.070000000000675
+          ]
+        ],
+        "possible_case_obstacles": []
+      },
+      {
+        "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:2/Body19",
+        "housing_sweep": [
+          [
+            34.50500000000089,
+            -5.0,
+            -1.6799995842503286
+          ],
+          [
+            50.694999999999126,
+            15.9499999999996,
+            17.940000000000563
+          ]
+        ],
+        "possible_case_obstacles": []
+      },
+      {
+        "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:2/Body20",
+        "housing_sweep": [
+          [
+            35.999999999998465,
+            -5.0,
+            7.79000000000103
+          ],
+          [
+            49.20000000000155,
+            9.749999999999,
+            12.070000000000675
+          ]
+        ],
+        "possible_case_obstacles": []
+      }
+    ],
+    "physical_plug_and_finger_clearance": "unverified; plug dimensions, grip space and cable bend radii not supplied"
+  },
+  "micro_sd_access": {
+    "status": "unverified",
+    "labelled_candidates": [],
+    "reason": "Card body or ejection direction not confirmed"
+  }
+}

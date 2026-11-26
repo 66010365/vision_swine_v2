@@ -1,0 +1,11 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "VISION SWINE",
+  "description": {
+    "": "Build and inspect Mounting Plate V2 in the active V1 assembly."
+  },
+  "version": "2.0.0",
+  "supportedOS": "windows",
+  "editEnabled": true
+}

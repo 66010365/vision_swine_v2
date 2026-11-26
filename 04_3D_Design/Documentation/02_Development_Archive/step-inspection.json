@@ -1,0 +1,18 @@
+{
+ "units":"mm",
+ "source":"Reference/Jetson_Nano_Dev_Kit_3D_b01.stp",
+ "sha256":"054c594a8b08185f8aab22e30976f7d7df3f16771455a1485381111e068f279d",
+ "status":"STEP inspection, before Fusion verification",
+ "assembly":"675-13450_PORG_DEV_KIT_TOP_ASSY",
+ "pcb_product":"142-13449-1000-B01-SKU0000",
+ "frame":"Native STEP PCB part coordinates, before assembly transforms",
+ "pcb_vertex_min":[-4,-17,0],
+ "pcb_vertex_max":[96,62,1.57],
+ "pcb_vertex_span":[100,79,1.57],
+ "cylindrical_surface_candidates":{"diameter":2.75,"centers_xy":[[0,0],[0,58],[86,0],[86,58],[12.2,58.5],[75.8,58.5]]},
+ "mounting_holes":null,
+ "assembly_height":null,
+ "underside_projection":null,
+ "ports":null,
+ "limitations":["PCB vertex extrema await exact oriented solid bounds in Fusion.","Diameter alone does not identify the four case mounting holes.","Assembly extents require transforms. Port identities require confirmation."]
+}

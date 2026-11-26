@@ -1,0 +1,297 @@
+{
+  "status": "review_required",
+  "units": "mm",
+  "timestamp": "2026-11-25T21:11:54.593574",
+  "scope": "Initial V3 geometry only",
+  "approved_for_print": false,
+  "frame": {
+    "origin_assembly_mm": [
+      -4.0000000000000036,
+      -17.0,
+      0.0
+    ],
+    "x": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "y": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "z": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "step_sha256": "054c594a8b08185f8aab22e30976f7d7df3f16771455a1485381111e068f279d",
+  "trial_port_openings": [
+    {
+      "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+064-0377-000_2:1",
+      "aperture": 1,
+      "housing_xz_mm": [
+        1.5000000000000036,
+        11.580000000000004,
+        -1.9299999999999997,
+        12.570000000000002
+      ],
+      "front_recess_mm": 5.5,
+      "opening_xz_mm": [
+        1.2000000000000002,
+        11.880000000000003,
+        -2.4300000000000006,
+        13.070000000000002
+      ],
+      "housing_path_clear": true,
+      "possible_case_obstacles": []
+    },
+    {
+      "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+064-0374-000_2:1",
+      "aperture": 2,
+      "housing_xz_mm": [
+        14.800000000000004,
+        32.900000000000006,
+        -0.9038000000000004,
+        20.9462
+      ],
+      "front_recess_mm": 4.974999999999999,
+      "opening_xz_mm": [
+        14.500000000000002,
+        33.199999999999996,
+        -1.4038,
+        21.4462
+      ],
+      "housing_path_clear": true,
+      "possible_case_obstacles": []
+    },
+    {
+      "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:2",
+      "aperture": 3,
+      "housing_xz_mm": [
+        34.50500000000089,
+        50.694999999999126,
+        -1.6799995842503286,
+        17.940000000000563
+      ],
+      "front_recess_mm": 5.50000000000082,
+      "opening_xz_mm": [
+        34.205000000000005,
+        85.35,
+        -2.73000269,
+        18.440000000000005
+      ],
+      "housing_path_clear": true,
+      "possible_case_obstacles": []
+    },
+    {
+      "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:1",
+      "aperture": 3,
+      "housing_xz_mm": [
+        51.50500000000089,
+        67.69499999999913,
+        -1.6799995842503286,
+        17.940000000000563
+      ],
+      "front_recess_mm": 5.50000000000082,
+      "opening_xz_mm": [
+        34.205000000000005,
+        85.35,
+        -2.73000269,
+        18.440000000000005
+      ],
+      "housing_path_clear": true,
+      "possible_case_obstacles": []
+    },
+    {
+      "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+064-0404-000_1:1",
+      "aperture": 3,
+      "housing_xz_mm": [
+        68.8500000000019,
+        85.0500000000045,
+        -2.2300026912717,
+        15.21999279541
+      ],
+      "front_recess_mm": 5.250000056995,
+      "opening_xz_mm": [
+        34.205000000000005,
+        85.35,
+        -2.73000269,
+        18.440000000000005
+      ],
+      "housing_path_clear": true,
+      "possible_case_obstacles": []
+    },
+    {
+      "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1368-000_1:1",
+      "aperture": 4,
+      "housing_xz_mm": [
+        88.00000000000075,
+        96.00000000000178,
+        -0.10380000182967342,
+        4.3562028274435
+      ],
+      "front_recess_mm": 6.39999846331066,
+      "opening_xz_mm": [
+        87.70000000000002,
+        96.30000000000001,
+        -0.6038,
+        4.85620283
+      ],
+      "housing_path_clear": true,
+      "possible_case_obstacles": []
+    }
+  ],
+  "case_bounds": [
+    [
+      -4.0,
+      -4.0,
+      -8.0
+    ],
+    [
+      104.0,
+      83.00000000000001,
+      34.0
+    ]
+  ],
+  "panel_bounds": [
+    [
+      -6.0,
+      -7.0,
+      -4.999999999999998
+    ],
+    [
+      106.0,
+      -4.0,
+      34.0
+    ]
+  ],
+  "total_height": 42.0,
+  "clearance_above_assembly_mm": 5.723800000000004,
+  "initial_parameters": {
+    "vsPcbX": "100 mm",
+    "vsPcbY": "79 mm",
+    "vsPcbT": "1.57 mm",
+    "vsGap": "1 mm",
+    "vsWall": "3 mm",
+    "vsFloor": "3 mm",
+    "vsPostH": "5 mm",
+    "vsCornerR": "3 mm",
+    "vsPostOD": "5.5 mm",
+    "vsBore": "2.75 mm",
+    "vsMargin": "vsGap+vsWall",
+    "vsInnerX": "vsPcbX+2*vsGap",
+    "vsInnerY": "vsPcbY+2*vsGap",
+    "vsOuterX": "vsInnerX+2*vsWall",
+    "vsOuterY": "vsInnerY+2*vsWall",
+    "vsHoleX1": "4 mm",
+    "vsHoleY1": "17 mm",
+    "vsHoleX2": "90 mm",
+    "vsHoleY2": "17 mm",
+    "vsHoleX3": "4 mm",
+    "vsHoleY3": "75 mm",
+    "vsHoleX4": "90 mm",
+    "vsHoleY4": "75 mm",
+    "vsWallH": "39 mm",
+    "vsTop": "vsWallH-vsPostH",
+    "vsPanelT": "3 mm",
+    "vsPanelEar": "2 mm",
+    "vsPortGapX": "0.3 mm",
+    "vsPortGapZ": "0.5 mm",
+    "vsBossSize": "8 mm",
+    "vsBossWidth": "3.8 mm",
+    "vsBossDepth": "8 mm",
+    "vsPilot": "2.5 mm",
+    "vsPilotDepth": "6 mm",
+    "vsPanelScrew": "3.4 mm"
+  },
+  "interferences": {
+    "case_board": [],
+    "panel_board": [],
+    "case_panel": 0
+  },
+  "mount_check": {
+    "boss_bounds": [
+      [
+        "left",
+        [
+          [
+            -4.0,
+            -4.0,
+            26.000000000000007
+          ],
+          [
+            -0.20000000000000018,
+            4.0,
+            34.0
+          ]
+        ]
+      ],
+      [
+        "right",
+        [
+          [
+            100.19999999999999,
+            -4.0,
+            26.000000000000007
+          ],
+          [
+            104.0,
+            4.0,
+            34.0
+          ]
+        ]
+      ]
+    ],
+    "candidates": [],
+    "method": "Solid interference tested on joined case; screw tip must remain in blind pilot."
+  },
+  "vertical_board_removal": {
+    "travel_mm": 37.2300026912717,
+    "potential_obstructions": [],
+    "with_panel": "clear",
+    "panel_removed": "clear",
+    "conditions": "Continuous bounding-box sweep; unplug cables and remove board screws."
+  },
+  "panel_removal": {
+    "direction": "-Y",
+    "status": "clear",
+    "method": "All fixed solids behind seated rear plane throughout straight withdrawal; reverse for assembly.",
+    "conditions": "Unplug peripherals and remove both front screws."
+  },
+  "USB_accessory_fit_limits": {
+    "shared_stack_openings": [
+      {
+        "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:2",
+        "aperture_width": 51.14499999999999,
+        "aperture_height": 21.170002690000004,
+        "trial_housing_recess": 5.50000000000082,
+        "status": "Housing ID only. Compare actual accessories at their occupied socket heights."
+      },
+      {
+        "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:1",
+        "aperture_width": 51.14499999999999,
+        "aperture_height": 21.170002690000004,
+        "trial_housing_recess": 5.50000000000082,
+        "status": "Housing ID only. Compare actual accessories at their occupied socket heights."
+      }
+    ],
+    "horizontal_stack_pitch_mm": 17.0,
+    "scope": "Full aperture bounds per stack, not per socket. Plug nose reach is measured from actual receptacle face."
+  },
+  "physical_access": {
+    "requested_ports": [
+      "DC power",
+      "HDMI",
+      "DisplayPort",
+      "USB Type-A",
+      "Ethernet",
+      "Micro USB"
+    ],
+    "basis": "Six actual front occurrence envelopes; shared/stacked receptacles use a common opening. Functional labels unconfirmed.",
+    "USB_Wi_Fi": "unverified; dongle outline, adjacent socket occupancy and projection needed",
+    "ELP_camera_USB": "unverified; plug overmold, connector reach and bend radius needed",
+    "plug_fit": "Trial openings. A housing-only corridor does not establish plug seating or removal."
+  }
+}

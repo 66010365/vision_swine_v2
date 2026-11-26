@@ -1,0 +1,291 @@
+{
+  "status": "review_required",
+  "timestamp": "2026-11-25T20:48:47.273714",
+  "approved_for_print": false,
+  "mount_function": "experimental; mechanical purpose unconfirmed",
+  "scope": "As-built initial parameters only; review again after edits.",
+  "step_sha256": "054c594a8b08185f8aab22e30976f7d7df3f16771455a1485381111e068f279d",
+  "frame": {
+    "origin_assembly_mm": [
+      -4.0000000000000036,
+      -17.0,
+      0.0
+    ],
+    "x": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "y": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "z": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "units": "mm",
+  "overhanging_bodies": [
+    {
+      "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+064-0377-000_2:1/Body1",
+      "bounds_mm": [
+        [
+          1.5000000000000036,
+          -1.5000000000000009,
+          -1.9299999999999997
+        ],
+        [
+          11.580000000000004,
+          13.129999999999999,
+          12.570000000000002
+        ]
+      ],
+      "overhang_minusX_plusX_minusY_plusY": [
+        0,
+        0,
+        1.5000000000000009,
+        0
+      ]
+    },
+    {
+      "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1368-000_1:1/Body1",
+      "bounds_mm": [
+        [
+          88.00000000000075,
+          -0.6000015366893408,
+          -0.10380000182967342
+        ],
+        [
+          96.00000000000178,
+          6.300000000000839,
+          4.3562028274435
+        ]
+      ],
+      "overhang_minusX_plusX_minusY_plusY": [
+        0,
+        0,
+        0.6000015366893408,
+        0
+      ]
+    },
+    {
+      "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+064-0374-000_2:1/Body31",
+      "bounds_mm": [
+        [
+          14.800000000000004,
+          -2.025000000000002,
+          -0.9038000000000004
+        ],
+        [
+          32.900000000000006,
+          16.52499999999711,
+          20.9462
+        ]
+      ],
+      "overhang_minusX_plusX_minusY_plusY": [
+        0,
+        0,
+        2.025000000000002,
+        0
+      ]
+    },
+    {
+      "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+064-0404-000_1:1/Body1",
+      "bounds_mm": [
+        [
+          68.8500000000019,
+          -1.749999943005001,
+          -2.2300026912717
+        ],
+        [
+          85.0500000000045,
+          19.85,
+          15.21999279541
+        ]
+      ],
+      "overhang_minusX_plusX_minusY_plusY": [
+        0,
+        0,
+        1.749999943005001,
+        0
+      ]
+    },
+    {
+      "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:1/Body19",
+      "bounds_mm": [
+        [
+          51.50500000000089,
+          -1.499999999999181,
+          -1.6799995842503286
+        ],
+        [
+          67.69499999999913,
+          15.9499999999996,
+          17.940000000000563
+        ]
+      ],
+      "overhang_minusX_plusX_minusY_plusY": [
+        0,
+        0,
+        1.499999999999181,
+        0
+      ]
+    },
+    {
+      "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:1/Body20",
+      "bounds_mm": [
+        [
+          52.999999999998465,
+          -1.2500000000001794,
+          7.79000000000103
+        ],
+        [
+          66.20000000000155,
+          9.749999999999,
+          12.070000000000675
+        ]
+      ],
+      "overhang_minusX_plusX_minusY_plusY": [
+        0,
+        0,
+        1.2500000000001794,
+        0
+      ]
+    },
+    {
+      "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:2/Body19",
+      "bounds_mm": [
+        [
+          34.50500000000089,
+          -1.499999999999181,
+          -1.6799995842503286
+        ],
+        [
+          50.694999999999126,
+          15.9499999999996,
+          17.940000000000563
+        ]
+      ],
+      "overhang_minusX_plusX_minusY_plusY": [
+        0,
+        0,
+        1.499999999999181,
+        0
+      ]
+    },
+    {
+      "body": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:2/Body20",
+      "bounds_mm": [
+        [
+          35.999999999998465,
+          -1.2500000000001794,
+          7.79000000000103
+        ],
+        [
+          49.20000000000155,
+          9.749999999999,
+          12.070000000000675
+        ]
+      ],
+      "overhang_minusX_plusX_minusY_plusY": [
+        0,
+        0,
+        1.2500000000001794,
+        0
+      ]
+    }
+  ],
+  "identified_ports": [],
+  "port_identity_complete": false,
+  "initial_parameter_expressions": {
+    "vsPcbX": "100 mm",
+    "vsPcbY": "79 mm",
+    "vsPcbT": "1.57 mm",
+    "vsGap": "1 mm",
+    "vsWall": "3 mm",
+    "vsFloor": "3 mm",
+    "vsPostH": "5 mm",
+    "vsCornerR": "3 mm",
+    "vsPostOD": "5.5 mm",
+    "vsBore": "2.75 mm",
+    "vsMargin": "vsGap+vsWall",
+    "vsInnerX": "vsPcbX+2*vsGap",
+    "vsInnerY": "vsPcbY+2*vsGap",
+    "vsOuterX": "vsInnerX+2*vsWall",
+    "vsOuterY": "vsInnerY+2*vsWall",
+    "vsHoleX1": "4 mm",
+    "vsHoleY1": "17 mm",
+    "vsHoleX2": "90 mm",
+    "vsHoleY2": "17 mm",
+    "vsHoleX3": "4 mm",
+    "vsHoleY3": "75 mm",
+    "vsHoleX4": "90 mm",
+    "vsHoleY4": "75 mm"
+  },
+  "trial_sites": [
+    {
+      "center_xy": [
+        4,
+        17
+      ],
+      "post_created": true,
+      "eligible": true,
+      "bore_obstruction_mm3": 0,
+      "bearing_expected_mm3": 0.8905039155345175,
+      "bearing_observed_mm3": 0.8905039155345175,
+      "post_interferences": []
+    },
+    {
+      "center_xy": [
+        90,
+        17
+      ],
+      "post_created": true,
+      "eligible": true,
+      "bore_obstruction_mm3": 0,
+      "bearing_expected_mm3": 0.890503915534519,
+      "bearing_observed_mm3": 0.890503915534519,
+      "post_interferences": []
+    },
+    {
+      "center_xy": [
+        4,
+        75
+      ],
+      "post_created": true,
+      "eligible": true,
+      "bore_obstruction_mm3": 0,
+      "bearing_expected_mm3": 0.8905039155345175,
+      "bearing_observed_mm3": 0.8905039155345175,
+      "post_interferences": []
+    },
+    {
+      "center_xy": [
+        90,
+        75
+      ],
+      "post_created": true,
+      "eligible": true,
+      "bore_obstruction_mm3": 0,
+      "bearing_expected_mm3": 0.890503915534519,
+      "bearing_observed_mm3": 0.890503915534519,
+      "post_interferences": []
+    }
+  ],
+  "case_bounds_mm": [
+    [
+      -4.0,
+      -4.0,
+      -8.0
+    ],
+    [
+      104.0,
+      83.00000000000001,
+      0.0
+    ]
+  ],
+  "case_board_interferences": []
+}

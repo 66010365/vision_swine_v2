@@ -1,0 +1,906 @@
+{
+  "timestamp": "2026-11-25T22:01:01.323862",
+  "units": "mm",
+  "approved_for_print": false,
+  "status": "review_required",
+  "scope": "V5 initial as-built geometry; repeat inspection after edits.",
+  "frame": {
+    "origin_assembly_mm": [
+      -4.0000000000000036,
+      -17.0,
+      0.0
+    ],
+    "x": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "y": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "z": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "step_sha256": "054c594a8b08185f8aab22e30976f7d7df3f16771455a1485381111e068f279d",
+  "trial_port_openings": [
+    {
+      "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+064-0377-000_2:1",
+      "aperture": 1,
+      "housing_xz_mm": [
+        1.5000000000000036,
+        11.580000000000004,
+        -1.9299999999999997,
+        12.570000000000002
+      ],
+      "front_recess_mm": 5.5,
+      "opening_xz_mm": [
+        1.2000000000000002,
+        11.880000000000003,
+        -2.4300000000000006,
+        13.070000000000002
+      ],
+      "housing_path_clear": true,
+      "possible_case_obstacles": []
+    },
+    {
+      "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+064-0374-000_2:1",
+      "aperture": 2,
+      "housing_xz_mm": [
+        14.800000000000004,
+        32.900000000000006,
+        -0.9038000000000004,
+        20.9462
+      ],
+      "front_recess_mm": 4.974999999999999,
+      "opening_xz_mm": [
+        14.500000000000002,
+        85.35,
+        -2.73000269,
+        21.4462
+      ],
+      "housing_path_clear": true,
+      "possible_case_obstacles": []
+    },
+    {
+      "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:2",
+      "aperture": 2,
+      "housing_xz_mm": [
+        34.50500000000089,
+        50.694999999999126,
+        -1.6799995842503286,
+        17.940000000000563
+      ],
+      "front_recess_mm": 5.50000000000082,
+      "opening_xz_mm": [
+        14.500000000000002,
+        85.35,
+        -2.73000269,
+        21.4462
+      ],
+      "housing_path_clear": true,
+      "possible_case_obstacles": []
+    },
+    {
+      "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:1",
+      "aperture": 2,
+      "housing_xz_mm": [
+        51.50500000000089,
+        67.69499999999913,
+        -1.6799995842503286,
+        17.940000000000563
+      ],
+      "front_recess_mm": 5.50000000000082,
+      "opening_xz_mm": [
+        14.500000000000002,
+        85.35,
+        -2.73000269,
+        21.4462
+      ],
+      "housing_path_clear": true,
+      "possible_case_obstacles": []
+    },
+    {
+      "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+064-0404-000_1:1",
+      "aperture": 2,
+      "housing_xz_mm": [
+        68.8500000000019,
+        85.0500000000045,
+        -2.2300026912717,
+        15.21999279541
+      ],
+      "front_recess_mm": 5.250000056995,
+      "opening_xz_mm": [
+        14.500000000000002,
+        85.35,
+        -2.73000269,
+        21.4462
+      ],
+      "housing_path_clear": true,
+      "possible_case_obstacles": []
+    },
+    {
+      "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+080-1368-000_1:1",
+      "aperture": 3,
+      "housing_xz_mm": [
+        88.00000000000075,
+        96.00000000000178,
+        -0.10380000182967342,
+        4.3562028274435
+      ],
+      "front_recess_mm": 6.39999846331066,
+      "opening_xz_mm": [
+        87.70000000000002,
+        96.30000000000001,
+        -0.6038,
+        4.85620283
+      ],
+      "housing_path_clear": true,
+      "possible_case_obstacles": []
+    }
+  ],
+  "cover_mounts": [
+    {
+      "location": "left front",
+      "axis_xy": [
+        -4.5,
+        12.000000000000002
+      ],
+      "other_boss_overlaps": [],
+      "board_candidates": [],
+      "solid_samples": {
+        "cover_bore_open": true,
+        "cover_bore_land": true,
+        "pilot_open": true,
+        "pilot_land": true,
+        "blind_end": true
+      }
+    },
+    {
+      "location": "left back",
+      "axis_xy": [
+        -4.5,
+        69.0
+      ],
+      "other_boss_overlaps": [],
+      "board_candidates": [],
+      "solid_samples": {
+        "cover_bore_open": true,
+        "cover_bore_land": true,
+        "pilot_open": true,
+        "pilot_land": true,
+        "blind_end": true
+      }
+    },
+    {
+      "location": "right front",
+      "axis_xy": [
+        104.5,
+        12.000000000000002
+      ],
+      "other_boss_overlaps": [],
+      "board_candidates": [],
+      "solid_samples": {
+        "cover_bore_open": true,
+        "cover_bore_land": true,
+        "pilot_open": true,
+        "pilot_land": true,
+        "blind_end": true
+      }
+    },
+    {
+      "location": "right back",
+      "axis_xy": [
+        104.5,
+        69.0
+      ],
+      "other_boss_overlaps": [],
+      "board_candidates": [],
+      "solid_samples": {
+        "cover_bore_open": true,
+        "cover_bore_land": true,
+        "pilot_open": true,
+        "pilot_land": true,
+        "blind_end": true
+      }
+    }
+  ],
+  "hardware": "Trial M3-size clearance, PETG pilot bores. Actual screw engagement and pull-out strength unverified.",
+  "ventilation": {
+    "fin_axis": null,
+    "initial_slot_angle_deg": 0,
+    "angle_parameter": "vsVentAngle",
+    "slot_length": 60.0,
+    "slot_width": 4.0,
+    "reserved_side_band_y_mm": [
+      40,
+      60
+    ],
+    "thermal_performance": "unverified; physical temperature test required",
+    "pattern_center_xy": [
+      48.0,
+      47.0
+    ],
+    "verified_openings": 11,
+    "roof_open_mm2": 1182.8318530717986,
+    "side_open_mm2": 287.99999999999994,
+    "total_open_mm2": 1470.8318530717986
+  },
+  "material_sections_mm": {
+    "front_port_web": 2.3500000000000227,
+    "front_bottom_strip": 2.26999731,
+    "front_pilot_side": 1.7500000000000004,
+    "front_pilot_end": 1.9999999999999991,
+    "cover_pilot_side": 2.2500000000000004,
+    "cover_pilot_end": 2.999999999999999,
+    "ear_bore_side": 1.8000000000000003,
+    "panel_hole_outer_edge": 3.3,
+    "roof_vent_web": 3.0000000000000004,
+    "intake_web": 3.0000000000000004,
+    "wall": 3.0000000000000004,
+    "floor": 3.0000000000000004,
+    "cover": 3.0000000000000004,
+    "original_post_bore_side": 1.375,
+    "cover_slot_edge": 20.0
+  },
+  "minimum_of_checked_sections_mm": 1.375,
+  "panel_bounds": [
+    [
+      -8.200000000000003,
+      -7.0,
+      -4.999999999999998
+    ],
+    [
+      108.2,
+      -4.0,
+      34.0
+    ]
+  ],
+  "total_height": 42.0,
+  "clearance_above_assembly_mm": 5.723800000000004,
+  "initial_parameters": {
+    "vsPcbX": "100 mm",
+    "vsPcbY": "79 mm",
+    "vsPcbT": "1.57 mm",
+    "vsGap": "1 mm",
+    "vsWall": "3 mm",
+    "vsFloor": "3 mm",
+    "vsPostH": "5 mm",
+    "vsCornerR": "3 mm",
+    "vsPostOD": "5.5 mm",
+    "vsBore": "2.75 mm",
+    "vsMargin": "vsGap+vsWall",
+    "vsInnerX": "vsPcbX+2*vsGap",
+    "vsInnerY": "vsPcbY+2*vsGap",
+    "vsOuterX": "vsInnerX+2*vsWall",
+    "vsOuterY": "vsInnerY+2*vsWall",
+    "vsHoleX1": "4 mm",
+    "vsHoleY1": "17 mm",
+    "vsHoleX2": "90 mm",
+    "vsHoleY2": "17 mm",
+    "vsHoleX3": "4 mm",
+    "vsHoleY3": "75 mm",
+    "vsHoleX4": "90 mm",
+    "vsHoleY4": "75 mm",
+    "vsWallH": "39 mm",
+    "vsTop": "vsWallH-vsPostH",
+    "vsPanelT": "3 mm",
+    "vsPanelEar": "2 mm",
+    "vsPortGapX": "0.3 mm",
+    "vsPortGapZ": "0.5 mm",
+    "vsBossSize": "8 mm",
+    "vsBossWidth": "6 mm",
+    "vsBossDepth": "8 mm",
+    "vsPilot": "2.5 mm",
+    "vsPilotDepth": "6 mm",
+    "vsPanelScrew": "3.4 mm",
+    "vsFrontWeb": "2 mm",
+    "vsLidT": "3 mm",
+    "vsLidPad": "7 mm",
+    "vsLidBossH": "9 mm",
+    "vsLidPilot": "2.5 mm",
+    "vsLidBore": "3.4 mm",
+    "vsLidDepth": "6 mm",
+    "vsSlotL": "60 mm",
+    "vsSlotW": "4 mm",
+    "vsVentWeb": "3 mm",
+    "vsIntakeW": "4 mm",
+    "vsIntakeH": "12 mm",
+    "vsIntakeZ": "9 mm",
+    "vsIntakeStart": "18 mm",
+    "vsEarExtension": "vsBossWidth-3.8 mm"
+  },
+  "cover_bounds": [
+    [
+      -8.0,
+      -4.0,
+      34.0
+    ],
+    [
+      108.0,
+      83.00000000000001,
+      37.0
+    ]
+  ],
+  "assembled_height_mm": 45.0,
+  "cover_clearance_above_assembly_mm": 5.723800000000004,
+  "mount_check": {
+    "boss_bounds": [
+      [
+        "left",
+        [
+          [
+            -6.200000000000001,
+            -4.0,
+            26.000000000000007
+          ],
+          [
+            -0.20000000000000018,
+            4.0,
+            34.0
+          ]
+        ]
+      ],
+      [
+        "right",
+        [
+          [
+            100.20000000000002,
+            -4.0,
+            26.000000000000007
+          ],
+          [
+            106.20000000000002,
+            4.0,
+            34.0
+          ]
+        ]
+      ],
+      [
+        "left front cover boss",
+        [
+          [
+            -8.0,
+            8.5,
+            25.000000000000004
+          ],
+          [
+            -1.0,
+            15.500000000000004,
+            34.0
+          ]
+        ]
+      ],
+      [
+        "left back cover boss",
+        [
+          [
+            -8.0,
+            65.5,
+            25.000000000000004
+          ],
+          [
+            -1.0,
+            72.5,
+            34.0
+          ]
+        ]
+      ],
+      [
+        "right front cover boss",
+        [
+          [
+            101.0,
+            8.5,
+            25.000000000000004
+          ],
+          [
+            107.99999999999999,
+            15.500000000000004,
+            34.0
+          ]
+        ]
+      ],
+      [
+        "right back cover boss",
+        [
+          [
+            101.0,
+            65.5,
+            25.000000000000004
+          ],
+          [
+            107.99999999999999,
+            72.5,
+            34.0
+          ]
+        ]
+      ]
+    ],
+    "candidates": [],
+    "method": "Solid interference tested on joined case; screw tip must remain in blind pilot."
+  },
+  "USB_accessory_fit_limits": {
+    "shared_stack_openings": [
+      {
+        "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:2",
+        "aperture_width": 70.85,
+        "aperture_height": 24.17620269,
+        "trial_housing_recess": 5.50000000000082,
+        "status": "Housing ID only. Compare actual accessories at their occupied socket heights."
+      },
+      {
+        "occurrence": "642-13450_PORG_SYS_BOM:1+699-13449_PORG_DEV_KIT_PCB_ASSY:1+600-13449_PORG_DEV_KIT_PCB_ASSY:1+142-13449-1000-B01-SKU0000 (1):1+065-0656-000_2:1",
+        "aperture_width": 70.85,
+        "aperture_height": 24.17620269,
+        "trial_housing_recess": 5.50000000000082,
+        "status": "Housing ID only. Compare actual accessories at their occupied socket heights."
+      }
+    ],
+    "horizontal_stack_pitch_mm": 17.0,
+    "scope": "Full aperture bounds per stack, not per socket. Plug nose reach is measured from actual receptacle face."
+  },
+  "physical_access": {
+    "requested_ports": [
+      "DC power",
+      "HDMI",
+      "DisplayPort",
+      "USB Type-A",
+      "Ethernet",
+      "Micro USB"
+    ],
+    "basis": "Six actual front occurrence envelopes; shared/stacked receptacles use a common opening. Functional labels unconfirmed.",
+    "USB_Wi_Fi": "unverified; dongle outline, adjacent socket occupancy and projection needed",
+    "ELP_camera_USB": "unverified; plug overmold, connector reach and bend radius needed",
+    "plug_fit": "Trial openings. A housing-only corridor does not establish plug seating or removal."
+  },
+  "v4_baseline": {
+    "interferences": {
+      "case_panel": 0,
+      "cover_case": 0,
+      "cover_panel": 0,
+      "case_board": [],
+      "panel_board": [],
+      "cover_board": []
+    },
+    "cover_removal": {
+      "direction": "+Z",
+      "conditions": "Remove four screws",
+      "status": "clear"
+    },
+    "panel_removal": {
+      "direction": "-Y",
+      "status": "clear",
+      "method": "All fixed solids behind seated rear plane throughout straight withdrawal; reverse for assembly.",
+      "conditions": "Unplug peripherals and remove both front screws."
+    },
+    "vertical_board_removal": {
+      "travel_mm": 37.2300026912717,
+      "potential_obstructions": [],
+      "with_panel": "clear",
+      "panel_removed": "clear",
+      "conditions": "Cover removed. Continuous bounding-box sweep; unplug cables and remove board screws."
+    },
+    "case_bounds": [
+      [
+        -8.0,
+        -4.0,
+        -8.0
+      ],
+      [
+        108.0,
+        83.00000000000001,
+        34.0
+      ]
+    ],
+    "stages": {
+      "structure": {
+        "status": "passed"
+      },
+      "fin_direction": {
+        "status": "fallback_unconfirmed",
+        "initial_angle_deg": 0,
+        "side_area_votes_cm2": [
+          0.0,
+          0.0
+        ],
+        "heatsink": "682-13450_PORG_ME_THER_ASSY:1+PORG_HSK_ASSY:1+110-0111-000:1/Body1",
+        "reason": "No dominant fin-axis evidence"
+      },
+      "roof_vents": {
+        "status": "passed",
+        "expected_openings": 5,
+        "verified_openings": 5,
+        "cuts": [
+          {
+            "name": "Rounded vent 1",
+            "volume_before_mm3": 28391.872568420415,
+            "expected_removed_mm3": 709.6991118430776,
+            "component": "Jetson_Nano_Top_Cover",
+            "target_body": "Body1",
+            "plane_z_mm": 37.0,
+            "cut_distance_mm": 3.0000000000000004,
+            "profile_count": 1,
+            "profile_area_mm2": 236.56637061435939,
+            "through_at_center": true,
+            "volume_after_mm3": 27682.173456577333,
+            "removed_mm3": 709.6991118430815,
+            "center_open": true
+          },
+          {
+            "name": "Rounded vent 2",
+            "volume_before_mm3": 27682.173456577333,
+            "expected_removed_mm3": 709.6991118430776,
+            "component": "Jetson_Nano_Top_Cover",
+            "target_body": "Body1",
+            "plane_z_mm": 37.0,
+            "cut_distance_mm": 3.0000000000000004,
+            "profile_count": 1,
+            "profile_area_mm2": 236.56637061435939,
+            "through_at_center": true,
+            "volume_after_mm3": 26972.474344734255,
+            "removed_mm3": 709.6991118430778,
+            "center_open": true
+          },
+          {
+            "name": "Rounded vent 3",
+            "volume_before_mm3": 26972.474344734255,
+            "expected_removed_mm3": 709.6991118430776,
+            "component": "Jetson_Nano_Top_Cover",
+            "target_body": "Body1",
+            "plane_z_mm": 37.0,
+            "cut_distance_mm": 3.0000000000000004,
+            "profile_count": 1,
+            "profile_area_mm2": 236.56637061435939,
+            "through_at_center": true,
+            "volume_after_mm3": 26262.775232891177,
+            "removed_mm3": 709.6991118430778,
+            "center_open": true
+          },
+          {
+            "name": "Rounded vent 4",
+            "volume_before_mm3": 26262.775232891177,
+            "expected_removed_mm3": 709.6991118430776,
+            "component": "Jetson_Nano_Top_Cover",
+            "target_body": "Body1",
+            "plane_z_mm": 37.0,
+            "cut_distance_mm": 3.0000000000000004,
+            "profile_count": 1,
+            "profile_area_mm2": 236.56637061435939,
+            "through_at_center": true,
+            "volume_after_mm3": 25553.076121048096,
+            "removed_mm3": 709.6991118430815,
+            "center_open": true
+          },
+          {
+            "name": "Rounded vent 5",
+            "volume_before_mm3": 25553.076121048096,
+            "expected_removed_mm3": 709.6991118430776,
+            "component": "Jetson_Nano_Top_Cover",
+            "target_body": "Body1",
+            "plane_z_mm": 37.0,
+            "cut_distance_mm": 3.0000000000000004,
+            "profile_count": 1,
+            "profile_area_mm2": 236.56637061435939,
+            "through_at_center": true,
+            "volume_after_mm3": 24843.377009205018,
+            "removed_mm3": 709.6991118430778,
+            "center_open": true
+          }
+        ],
+        "volume_before_mm3": 28391.872568420415,
+        "volume_after_mm3": 24843.377009205018,
+        "removed_mm3": 3548.4955592153965,
+        "measured_open_mm2": 1182.8318530717986
+      },
+      "left_intakes": {
+        "status": "passed",
+        "expected_openings": 3,
+        "verified_openings": 3,
+        "cuts": [
+          {
+            "name": "left intake 1",
+            "volume_before_mm3": 61758.08451740503,
+            "expected_removed_mm3": 144.00000000000006,
+            "volume_after_mm3": 61614.08451740503,
+            "removed_mm3": 144.0,
+            "center_open": true
+          },
+          {
+            "name": "left intake 2",
+            "volume_before_mm3": 61614.08451740503,
+            "expected_removed_mm3": 144.00000000000006,
+            "volume_after_mm3": 61470.08451740503,
+            "removed_mm3": 144.0,
+            "center_open": true
+          },
+          {
+            "name": "left intake 3",
+            "volume_before_mm3": 61470.08451740503,
+            "expected_removed_mm3": 144.00000000000006,
+            "volume_after_mm3": 61326.08451740503,
+            "removed_mm3": 144.0,
+            "center_open": true
+          }
+        ],
+        "volume_before_mm3": 61758.08451740503,
+        "volume_after_mm3": 61326.08451740503,
+        "removed_mm3": 432.0,
+        "measured_open_mm2": 143.99999999999997
+      },
+      "right_intakes": {
+        "status": "passed",
+        "expected_openings": 3,
+        "verified_openings": 3,
+        "cuts": [
+          {
+            "name": "right intake 1",
+            "volume_before_mm3": 61326.08451740503,
+            "expected_removed_mm3": 144.00000000000006,
+            "volume_after_mm3": 61182.08451740503,
+            "removed_mm3": 144.0,
+            "center_open": true
+          },
+          {
+            "name": "right intake 2",
+            "volume_before_mm3": 61182.08451740503,
+            "expected_removed_mm3": 144.00000000000006,
+            "volume_after_mm3": 61038.08451740503,
+            "removed_mm3": 144.0,
+            "center_open": true
+          },
+          {
+            "name": "right intake 3",
+            "volume_before_mm3": 61038.08451740503,
+            "expected_removed_mm3": 144.00000000000006,
+            "volume_after_mm3": 60894.08451740503,
+            "removed_mm3": 144.0,
+            "center_open": true
+          }
+        ],
+        "volume_before_mm3": 61326.08451740503,
+        "volume_after_mm3": 60894.08451740503,
+        "removed_mm3": 432.0,
+        "measured_open_mm2": 143.99999999999997
+      },
+      "interference": {
+        "status": "passed",
+        "errors": {}
+      },
+      "assembly_checks": {
+        "status": "passed"
+      }
+    }
+  },
+  "load_capacity": "unverified; printed assembly requires load testing",
+  "mounting_plate_interface": {
+    "datum": "PCB min X/Y and underside; +Z upward",
+    "normal": [
+      0,
+      0,
+      -1
+    ],
+    "hole_axis": [
+      0,
+      0,
+      1
+    ],
+    "plate_contact_z_mm": -8.0,
+    "ear_top_z_mm": -3.0000000000000004,
+    "material_sections_mm": {
+      "end_edge": 2.75,
+      "outer_edge": 3.750000000000001,
+      "wall_to_hole_edge": 3.750000000000001,
+      "between_holes": 5.5,
+      "hole_edge_to_fillet_toe": 2.250000000000001,
+      "root_thickness": 5.0,
+      "root_length": 20.0,
+      "root_fillet_radius": 1.5000000000000002
+    },
+    "assumed_parameters": {
+      "vsEarLength": "20 mm",
+      "vsEarProjection": "12 mm",
+      "vsEarThickness": "5 mm",
+      "vsEarCenterY": "50 mm",
+      "vsEarHolePitch": "10 mm",
+      "vsEarHoleOffset": "vsEarProjection/2",
+      "vsEarHoleDia": "4.5 mm",
+      "vsEarRootR": "1.5 mm",
+      "vsEarSeatZ": "-vsPostH-vsFloor",
+      "vsEarTopZ": "vsEarSeatZ+vsEarThickness",
+      "vsM4HeadOD": "8 mm",
+      "vsM4HeadH": "4 mm",
+      "vsM4NutEnvelopeOD": "8.2 mm",
+      "vsM4NutH": "3.2 mm",
+      "vsM4ToolOD": "10 mm"
+    },
+    "holes": [
+      {
+        "side": "minus_X",
+        "center_pcb_xy_mm": [
+          -10.0,
+          45.0
+        ],
+        "assembly_xyz_at_plate_mm": [
+          -14.000000000000004,
+          28.0,
+          -8.0
+        ],
+        "diameter_mm": 4.5,
+        "removed_mm3": 79.52156404399284,
+        "through": true
+      },
+      {
+        "side": "minus_X",
+        "center_pcb_xy_mm": [
+          -10.0,
+          55.0
+        ],
+        "assembly_xyz_at_plate_mm": [
+          -14.000000000000004,
+          38.0,
+          -8.0
+        ],
+        "diameter_mm": 4.5,
+        "removed_mm3": 79.52156404399284,
+        "through": true
+      },
+      {
+        "side": "plus_X",
+        "center_pcb_xy_mm": [
+          110.0,
+          45.0
+        ],
+        "assembly_xyz_at_plate_mm": [
+          106.0,
+          28.0,
+          -8.0
+        ],
+        "diameter_mm": 4.499999999999993,
+        "removed_mm3": 79.52156404399284,
+        "through": true
+      },
+      {
+        "side": "plus_X",
+        "center_pcb_xy_mm": [
+          110.0,
+          55.0
+        ],
+        "assembly_xyz_at_plate_mm": [
+          106.0,
+          38.0,
+          -8.0
+        ],
+        "diameter_mm": 4.499999999999993,
+        "removed_mm3": 79.52156404399284,
+        "through": true
+      }
+    ]
+  },
+  "solid_check": {
+    "case": true,
+    "panel": true,
+    "cover": true
+  },
+  "interferences": {
+    "case_board": [],
+    "panel_board": [],
+    "cover_board": [],
+    "case_panel": 0,
+    "case_cover": 0,
+    "panel_cover": 0
+  },
+  "case_bounds": [
+    [
+      -16.0,
+      -4.0,
+      -8.0
+    ],
+    [
+      116.0,
+      83.00000000000001,
+      34.0
+    ]
+  ],
+  "case_board_check_basis": "Fresh V4 full assembly check plus exact pair tests in both added-material regions.",
+  "removal_checks": {
+    "cover_clear": true,
+    "panel_clear": true,
+    "board_clear": true,
+    "board_sweep_candidates": [],
+    "conditions": "Original V4 fastener and cable removal sequence; plate not modeled."
+  },
+  "ear_vent_clearance": {
+    "side_intake_y_gap_mm": 4.0,
+    "cover_z_gap_mm": 35.5,
+    "vents_verified_before_ears": 11,
+    "clear": true
+  },
+  "hardware_access": {
+    "assumptions": "One fastener serviced at a time, head above ear; compare envelopes with actual M4 hardware and future plate.",
+    "head_od_mm": 8.0,
+    "head_height_mm": 4.0,
+    "nut_envelope_od_mm": 8.2,
+    "nut_height_mm": 3.2000000000000006,
+    "axial_tool_od_mm": 10.0,
+    "holes": [
+      {
+        "center_pcb_xy_mm": [
+          -10.0,
+          45.0
+        ],
+        "clearances_mm": {
+          "head_edge": 1.0,
+          "nut_edge": 0.9000000000000004,
+          "head_to_fillet": 0.5000000000000009,
+          "driver_to_wall": 1.0000000000000009,
+          "driver_to_adjacent_head": 1.0,
+          "socket_to_adjacent_nut": 0.9000000000000004
+        },
+        "possible_obstructions": [],
+        "clear": true
+      },
+      {
+        "center_pcb_xy_mm": [
+          -10.0,
+          55.0
+        ],
+        "clearances_mm": {
+          "head_edge": 1.0,
+          "nut_edge": 0.9000000000000004,
+          "head_to_fillet": 0.5000000000000009,
+          "driver_to_wall": 1.0000000000000009,
+          "driver_to_adjacent_head": 1.0,
+          "socket_to_adjacent_nut": 0.9000000000000004
+        },
+        "possible_obstructions": [],
+        "clear": true
+      },
+      {
+        "center_pcb_xy_mm": [
+          110.0,
+          45.0
+        ],
+        "clearances_mm": {
+          "head_edge": 1.0,
+          "nut_edge": 0.9000000000000004,
+          "head_to_fillet": 0.5000000000000009,
+          "driver_to_wall": 1.0000000000000009,
+          "driver_to_adjacent_head": 1.0,
+          "socket_to_adjacent_nut": 0.9000000000000004
+        },
+        "possible_obstructions": [],
+        "clear": true
+      },
+      {
+        "center_pcb_xy_mm": [
+          110.0,
+          55.0
+        ],
+        "clearances_mm": {
+          "head_edge": 1.0,
+          "nut_edge": 0.9000000000000004,
+          "head_to_fillet": 0.5000000000000009,
+          "driver_to_wall": 1.0000000000000009,
+          "driver_to_adjacent_head": 1.0,
+          "socket_to_adjacent_nut": 0.9000000000000004
+        },
+        "possible_obstructions": [],
+        "clear": true
+      }
+    ]
+  },
+  "verification_summary": {
+    "single_solid_per_case_part": true,
+    "four_verified_through_holes": true,
+    "vents_unobstructed": true,
+    "provisional_hardware_envelopes_clear": true,
+    "removal_paths_clear": true,
+    "no_component_interference": true
+  },
+  "hardware_fit_verified_with_real_parts": false
+}

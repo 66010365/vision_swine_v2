@@ -1,0 +1,830 @@
+{
+  "status": "review_required",
+  "units": "mm",
+  "approved_for_installation": false,
+  "strength_tested": false,
+  "scope": "As built on this run, before any later parameter edits.",
+  "open_documents": [
+    {
+      "number": 1,
+      "name": "Untitled",
+      "active": false,
+      "isSaved": false,
+      "isModified": false,
+      "hasDataFile": false,
+      "isComplete": null,
+      "version": null,
+      "result": "Select the original two-assembly Mounting Layout V1."
+    },
+    {
+      "number": 2,
+      "name": "Untitled",
+      "active": false,
+      "isSaved": false,
+      "isModified": true,
+      "hasDataFile": false,
+      "isComplete": null,
+      "version": null,
+      "result": "Select the original two-assembly Mounting Layout V1."
+    },
+    {
+      "number": 3,
+      "name": "VISION_SWINE_Jetson_Case_V5S",
+      "active": false,
+      "isSaved": true,
+      "isModified": false,
+      "hasDataFile": true,
+      "isComplete": true,
+      "version": 1,
+      "result": "Select the original two-assembly Mounting Layout V1."
+    },
+    {
+      "number": 4,
+      "name": "Untitled",
+      "active": false,
+      "isSaved": false,
+      "isModified": true,
+      "hasDataFile": false,
+      "isComplete": null,
+      "version": null,
+      "result": "Select the original two-assembly Mounting Layout V1."
+    },
+    {
+      "number": 5,
+      "name": "Untitled",
+      "active": false,
+      "isSaved": false,
+      "isModified": true,
+      "hasDataFile": false,
+      "isComplete": null,
+      "version": null,
+      "result": "Missing full V5 or V3 assembly in the selected layout."
+    },
+    {
+      "number": 6,
+      "name": "VISION_SWINE_Camera_Mount_V3",
+      "active": false,
+      "isSaved": true,
+      "isModified": false,
+      "hasDataFile": true,
+      "isComplete": true,
+      "version": 1,
+      "result": "Select the original two-assembly Mounting Layout V1."
+    },
+    {
+      "number": 7,
+      "name": "VISION SWINE Mounting Layout V1",
+      "active": false,
+      "isSaved": false,
+      "isModified": true,
+      "hasDataFile": false,
+      "isComplete": null,
+      "version": null,
+      "result": "Saved DataFile unavailable"
+    },
+    {
+      "number": 8,
+      "name": "VISION_SWINE_Mounting_Layout_V1",
+      "active": false,
+      "isSaved": true,
+      "isModified": false,
+      "hasDataFile": true,
+      "isComplete": true,
+      "version": 1,
+      "result": "matching assembly"
+    },
+    {
+      "number": 9,
+      "name": "VISION SWINE Mounting Layout V1",
+      "active": true,
+      "isSaved": false,
+      "isModified": true,
+      "hasDataFile": false,
+      "isComplete": null,
+      "version": null,
+      "result": "Saved DataFile unavailable"
+    }
+  ],
+  "active_document": "VISION SWINE Mounting Layout V1",
+  "active_product_type": "adsk::fusion::Design",
+  "layout_source": {
+    "name": "VISION_SWINE_Mounting_Layout_V1",
+    "id": "urn:adsk.wipprod:dm.lineage:VBFJwJwiQ6qqeGyl-foFyg",
+    "version": 1,
+    "isModified": false,
+    "initial_isComplete": true,
+    "isComplete": true
+  },
+  "corner_radii_mm": [
+    {
+      "xy": [
+        -30.0,
+        -8.0
+      ],
+      "radius": 3.0000000000000004
+    },
+    {
+      "xy": [
+        140.0,
+        -8.0
+      ],
+      "radius": 0.7500000000000001
+    },
+    {
+      "xy": [
+        140.0,
+        1.0
+      ],
+      "radius": 8.0
+    },
+    {
+      "xy": [
+        187.0,
+        1.0
+      ],
+      "radius": 3.0000000000000004
+    },
+    {
+      "xy": [
+        187.0,
+        37.0
+      ],
+      "radius": 3.0000000000000004
+    },
+    {
+      "xy": [
+        140.0,
+        37.0
+      ],
+      "radius": 8.0
+    },
+    {
+      "xy": [
+        140.0,
+        98.0
+      ],
+      "radius": 3.0000000000000004
+    },
+    {
+      "xy": [
+        -30.0,
+        98.0
+      ],
+      "radius": 3.0000000000000004
+    }
+  ],
+  "bores": [
+    {
+      "center_xyz_mm": [
+        6.000000000000001,
+        38.0,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "removed_mm3": 95.42587685280887,
+      "through_and_aligned": true
+    },
+    {
+      "center_xyz_mm": [
+        6.000000000000001,
+        28.000000000000004,
+        0
+      ],
+      "diameter_mm": 4.5,
+      "removed_mm3": 95.42587685277977,
+      "through_and_aligned": true
+    },
+    {
+      "center_xyz_mm": [
+        126.00000000000001,
+        38.0,
+        0
+      ],
+      "diameter_mm": 4.499999999999993,
+      "removed_mm3": 95.42587685280887,
+      "through_and_aligned": true
+    },
+    {
+      "center_xyz_mm": [
+        126.00000000000001,
+        28.000000000000004,
+        0
+      ],
+      "diameter_mm": 4.499999999999993,
+      "removed_mm3": 95.42587685277977,
+      "through_and_aligned": true
+    },
+    {
+      "center_xyz_mm": [
+        172.0,
+        9.0,
+        0
+      ],
+      "diameter_mm": 4.500000000000028,
+      "removed_mm3": 95.42587685279432,
+      "through_and_aligned": true
+    },
+    {
+      "center_xyz_mm": [
+        172.0,
+        29.000000000000004,
+        0
+      ],
+      "diameter_mm": 4.500000000000028,
+      "removed_mm3": 95.42587685279432,
+      "through_and_aligned": true
+    }
+  ],
+  "single_connected_solid": true,
+  "bounds_mm": [
+    [
+      -30.0,
+      -8.0,
+      0.0
+    ],
+    [
+      187.0,
+      98.00000000000001,
+      6.000000000000001
+    ]
+  ],
+  "volume_mm3": 117805.5921723128,
+  "tongue_sections": [
+    {
+      "x_mm": 140.01,
+      "area_mm2": 307.20150023445115
+    },
+    {
+      "x_mm": 148.01,
+      "area_mm2": 216.0
+    }
+  ],
+  "size_mm": [
+    217.0,
+    106.00000000000001,
+    6.000000000000001
+  ],
+  "interference": {
+    "plate_against_layout": [],
+    "solids_screened": 932,
+    "case_against_camera": [],
+    "scope": "Existing internal contacts in V5 and V3 remain covered by their source inspections."
+  },
+  "mating_faces": {
+    "case": {
+      "point_mm": [
+        66.0,
+        43.50000000000001,
+        0.0
+      ],
+      "outward_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "bracket": {
+      "point_mm": [
+        172.0,
+        21.000000000000007,
+        0.0
+      ],
+      "outward_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "lens": {
+    "lens_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "angle_from_down_deg": 0.0,
+    "lens_front_z_mm": -46.0,
+    "forward_half_space_candidates": [],
+    "unobstructed_forward_half_space": true,
+    "scope": "Mechanical envelopes ahead of the lens front. Real field angle and working distance unmeasured.",
+    "plate_ahead_of_lens": false
+  },
+  "service_corridors": [
+    {
+      "region": "panel and port access +Y",
+      "bounds_mm": [
+        [
+          7.799999999999997,
+          87.00000000000001,
+          -42.0
+        ],
+        [
+          124.2,
+          120.00000000000001,
+          -3.0
+        ]
+      ],
+      "camera_candidates": [],
+      "plate_bounds_overlap": false
+    },
+    {
+      "region": "lid removal -Z",
+      "bounds_mm": [
+        [
+          8.0,
+          0.0,
+          -75.0
+        ],
+        [
+          124.0,
+          87.00000000000001,
+          -42.00000000000001
+        ]
+      ],
+      "camera_candidates": [],
+      "plate_bounds_overlap": false
+    }
+  ],
+  "ventilation": {
+    "lid_faces_down": true,
+    "plate_above_case": true,
+    "side_intake_gap_mm": 20.0,
+    "harness_and_thermal_tests": "pending"
+  },
+  "usb": {
+    "model_gap_mm": 30.500000000000007,
+    "lower_bound_over_slot_travel_mm": 26.500000000000007,
+    "real_plug_bend_radius_strain_relief_and_power_harness": "unverified"
+  },
+  "camera_support": {
+    "mating_face_bounds": [
+      [
+        157.0,
+        -3.999999999999993,
+        0.0
+      ],
+      [
+        187.0,
+        46.00000000000001,
+        0.0
+      ]
+    ],
+    "adjustment_each_way_mm": 4.000000000000001,
+    "swept_face_y_mm": [
+      -7.999999999999994,
+      50.00000000000001
+    ],
+    "swept_slot_y_mm": [
+      -0.9999999999999964,
+      39.0
+    ],
+    "full_slot_margin_y_mm": [
+      -2.0000000000000036,
+      -2.0
+    ],
+    "full_face_margin_y_mm": [
+      -9.0,
+      -13.000000000000007
+    ],
+    "fixed_washer_edge_margin_y_mm": 3.5,
+    "proposed_if_full_face_backing_required": {
+      "y_limits_mm": [
+        -7.999999999999994,
+        50.00000000000001
+      ],
+      "minimum_tip_x_with_R3_mm": 190.0,
+      "note": "Alternative only. Rework the lower transition and recheck cable, corner radii and service sweep."
+    }
+  },
+  "hardware": {
+    "assumptions": "Provisional axial envelopes in mm, head above plate, washer on each side; nominal bracket position. Verify actual nut/socket, screw length and tightening sequence.",
+    "envelopes": [
+      {
+        "hole": 1,
+        "envelope": "upper washer",
+        "od_mm": 9,
+        "z_mm": [
+          6.000000000000001,
+          7.000000000000001
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.0
+      },
+      {
+        "hole": 1,
+        "envelope": "upper head",
+        "od_mm": 8,
+        "z_mm": [
+          7.000000000000001,
+          11.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.5
+      },
+      {
+        "hole": 1,
+        "envelope": "upper driver",
+        "od_mm": 10,
+        "z_mm": [
+          11.0,
+          41.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 0.5
+      },
+      {
+        "hole": 1,
+        "envelope": "lower washer",
+        "od_mm": 9,
+        "z_mm": [
+          -6.0,
+          -5.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.0
+      },
+      {
+        "hole": 1,
+        "envelope": "lower nut envelope",
+        "od_mm": 8.2,
+        "z_mm": [
+          -9.2,
+          -6.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.4000000000000004
+      },
+      {
+        "hole": 1,
+        "envelope": "lower socket approach",
+        "od_mm": 12,
+        "z_mm": [
+          -39.2,
+          -6.0
+        ],
+        "interfering_bodies": [
+          "Body1"
+        ],
+        "lateral_margin_to_adjacent_washer_projection_mm": -0.5
+      },
+      {
+        "hole": 2,
+        "envelope": "upper washer",
+        "od_mm": 9,
+        "z_mm": [
+          6.000000000000001,
+          7.000000000000001
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.0
+      },
+      {
+        "hole": 2,
+        "envelope": "upper head",
+        "od_mm": 8,
+        "z_mm": [
+          7.000000000000001,
+          11.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.5
+      },
+      {
+        "hole": 2,
+        "envelope": "upper driver",
+        "od_mm": 10,
+        "z_mm": [
+          11.0,
+          41.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 0.5
+      },
+      {
+        "hole": 2,
+        "envelope": "lower washer",
+        "od_mm": 9,
+        "z_mm": [
+          -6.0,
+          -5.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.0
+      },
+      {
+        "hole": 2,
+        "envelope": "lower nut envelope",
+        "od_mm": 8.2,
+        "z_mm": [
+          -9.2,
+          -6.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.4000000000000004
+      },
+      {
+        "hole": 2,
+        "envelope": "lower socket approach",
+        "od_mm": 12,
+        "z_mm": [
+          -39.2,
+          -6.0
+        ],
+        "interfering_bodies": [
+          "Body1"
+        ],
+        "lateral_margin_to_adjacent_washer_projection_mm": -0.5
+      },
+      {
+        "hole": 3,
+        "envelope": "upper washer",
+        "od_mm": 9,
+        "z_mm": [
+          6.000000000000001,
+          7.000000000000001
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.0
+      },
+      {
+        "hole": 3,
+        "envelope": "upper head",
+        "od_mm": 8,
+        "z_mm": [
+          7.000000000000001,
+          11.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.5
+      },
+      {
+        "hole": 3,
+        "envelope": "upper driver",
+        "od_mm": 10,
+        "z_mm": [
+          11.0,
+          41.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 0.5
+      },
+      {
+        "hole": 3,
+        "envelope": "lower washer",
+        "od_mm": 9,
+        "z_mm": [
+          -6.0,
+          -5.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.0
+      },
+      {
+        "hole": 3,
+        "envelope": "lower nut envelope",
+        "od_mm": 8.2,
+        "z_mm": [
+          -9.2,
+          -6.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.4000000000000004
+      },
+      {
+        "hole": 3,
+        "envelope": "lower socket approach",
+        "od_mm": 12,
+        "z_mm": [
+          -39.2,
+          -6.0
+        ],
+        "interfering_bodies": [
+          "Body1"
+        ],
+        "lateral_margin_to_adjacent_washer_projection_mm": -0.5
+      },
+      {
+        "hole": 4,
+        "envelope": "upper washer",
+        "od_mm": 9,
+        "z_mm": [
+          6.000000000000001,
+          7.000000000000001
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.0
+      },
+      {
+        "hole": 4,
+        "envelope": "upper head",
+        "od_mm": 8,
+        "z_mm": [
+          7.000000000000001,
+          11.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.5
+      },
+      {
+        "hole": 4,
+        "envelope": "upper driver",
+        "od_mm": 10,
+        "z_mm": [
+          11.0,
+          41.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 0.5
+      },
+      {
+        "hole": 4,
+        "envelope": "lower washer",
+        "od_mm": 9,
+        "z_mm": [
+          -6.0,
+          -5.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.0
+      },
+      {
+        "hole": 4,
+        "envelope": "lower nut envelope",
+        "od_mm": 8.2,
+        "z_mm": [
+          -9.2,
+          -6.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 1.4000000000000004
+      },
+      {
+        "hole": 4,
+        "envelope": "lower socket approach",
+        "od_mm": 12,
+        "z_mm": [
+          -39.2,
+          -6.0
+        ],
+        "interfering_bodies": [
+          "Body1"
+        ],
+        "lateral_margin_to_adjacent_washer_projection_mm": -0.5
+      },
+      {
+        "hole": 5,
+        "envelope": "upper washer",
+        "od_mm": 9,
+        "z_mm": [
+          6.000000000000001,
+          7.000000000000001
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 10.999999999999993
+      },
+      {
+        "hole": 5,
+        "envelope": "upper head",
+        "od_mm": 8,
+        "z_mm": [
+          7.000000000000001,
+          11.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 11.499999999999993
+      },
+      {
+        "hole": 5,
+        "envelope": "upper driver",
+        "od_mm": 10,
+        "z_mm": [
+          11.0,
+          41.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 10.499999999999993
+      },
+      {
+        "hole": 5,
+        "envelope": "lower washer",
+        "od_mm": 9,
+        "z_mm": [
+          -6.0,
+          -5.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 10.999999999999993
+      },
+      {
+        "hole": 5,
+        "envelope": "lower nut envelope",
+        "od_mm": 8.2,
+        "z_mm": [
+          -9.2,
+          -6.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 11.399999999999993
+      },
+      {
+        "hole": 5,
+        "envelope": "lower socket approach",
+        "od_mm": 12,
+        "z_mm": [
+          -39.2,
+          -6.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 9.499999999999993
+      },
+      {
+        "hole": 6,
+        "envelope": "upper washer",
+        "od_mm": 9,
+        "z_mm": [
+          6.000000000000001,
+          7.000000000000001
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 10.999999999999993
+      },
+      {
+        "hole": 6,
+        "envelope": "upper head",
+        "od_mm": 8,
+        "z_mm": [
+          7.000000000000001,
+          11.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 11.499999999999993
+      },
+      {
+        "hole": 6,
+        "envelope": "upper driver",
+        "od_mm": 10,
+        "z_mm": [
+          11.0,
+          41.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 10.499999999999993
+      },
+      {
+        "hole": 6,
+        "envelope": "lower washer",
+        "od_mm": 9,
+        "z_mm": [
+          -6.0,
+          -5.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 10.999999999999993
+      },
+      {
+        "hole": 6,
+        "envelope": "lower nut envelope",
+        "od_mm": 8.2,
+        "z_mm": [
+          -9.2,
+          -6.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 11.399999999999993
+      },
+      {
+        "hole": 6,
+        "envelope": "lower socket approach",
+        "od_mm": 12,
+        "z_mm": [
+          -39.2,
+          -6.0
+        ],
+        "interfering_bodies": [],
+        "lateral_margin_to_adjacent_washer_projection_mm": 9.499999999999993
+      }
+    ]
+  },
+  "beam_clamp": {
+    "reserved_xy_mm": [
+      [
+        -27.0,
+        10.0
+      ],
+      [
+        -3.0,
+        80.00000000000001
+      ]
+    ],
+    "candidate_xy_mm": [
+      -15.0,
+      45.00000000000001
+    ],
+    "drilled": false,
+    "horizontal_offset_to_mount_pattern_centroids_mm": {
+      "case": 81.88406438373708,
+      "camera": 188.79883474216678
+    },
+    "load_evaluation": "Clamp is to the left of both mounting patterns. Weigh the complete hardware and locate its horizontal CG. For vertical gravity, torque magnitude in N m = mass_kg * 9.80665 * horizontal_CG_offset_mm / 1000. Mount-pattern centres are geometric references only."
+  }
+}

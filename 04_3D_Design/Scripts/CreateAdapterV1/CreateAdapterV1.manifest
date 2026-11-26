@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "VISION SWINE",
+  "description": {"": "Build a detachable adapter and compare two clamp positions against open reference assemblies."},
+  "version": "1.0.0",
+  "supportedOS": "windows",
+  "editEnabled": true
+}

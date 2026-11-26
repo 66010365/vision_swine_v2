@@ -1,0 +1,346 @@
+{
+  "status": "review_required",
+  "units": "mm",
+  "approved_for_print": false,
+  "installation": "Overhead common plate, both parts beneath; case rotated 180 deg about X.",
+  "sources": {
+    "case": {
+      "document": "VISION_SWINE_Jetson_Case_V5S",
+      "id": "urn:adsk.wipprod:dm.lineage:oIlCucn4Rl6WbW_Pl-vZGw",
+      "version": 1,
+      "source_inventory": {
+        "occurrences": 408,
+        "bodies": 926,
+        "solids": 926,
+        "faces": 180
+      },
+      "inserted_inventory": {
+        "occurrences": 408,
+        "bodies": 926,
+        "solids": 926,
+        "faces": 180
+      },
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        2.0,
+        0.0,
+        -1.0,
+        0.0,
+        6.600000000000001,
+        0.0,
+        0.0,
+        -1.0,
+        -0.8,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "camera": {
+      "document": "VISION_SWINE_Camera_Mount_V3",
+      "id": "urn:adsk.wipprod:dm.lineage:D2XCTmcDS7S9UWpKi9bP8w",
+      "version": 1,
+      "source_inventory": {
+        "occurrences": 3,
+        "bodies": 6,
+        "solids": 6,
+        "faces": 37
+      },
+      "inserted_inventory": {
+        "occurrences": 3,
+        "bodies": 6,
+        "solids": 6,
+        "faces": 37
+      },
+      "transform": [
+        1.0,
+        0.0,
+        0.0,
+        15.7,
+        0.0,
+        1.0,
+        0.0,
+        -0.3999999999999993,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "mounting_faces": {
+    "case": {
+      "point_mm": [
+        66.0,
+        43.50000000000001,
+        0.0
+      ],
+      "outward_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "bracket": {
+      "point_mm": [
+        172.0,
+        21.000000000000007,
+        0.0
+      ],
+      "outward_normal": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "measured_pitches_mm": {
+    "case_row_1": 10.0,
+    "case_row_2": 10.0,
+    "case_cross_1": 120.0,
+    "case_cross_2": 120.0,
+    "slot_pitch": 19.999999999999993
+  },
+  "mounting_points": [
+    {
+      "part": "case",
+      "center_xyz_mm": [
+        5.9999999999999964,
+        38.00000000000001,
+        0.0
+      ],
+      "source_diameter_mm": 4.5
+    },
+    {
+      "part": "case",
+      "center_xyz_mm": [
+        5.9999999999999964,
+        28.000000000000007,
+        0.0
+      ],
+      "source_diameter_mm": 4.5
+    },
+    {
+      "part": "case",
+      "center_xyz_mm": [
+        126.0,
+        38.00000000000001,
+        0.0
+      ],
+      "source_diameter_mm": 4.499999999999993
+    },
+    {
+      "part": "case",
+      "center_xyz_mm": [
+        126.0,
+        28.000000000000007,
+        0.0
+      ],
+      "source_diameter_mm": 4.499999999999993
+    },
+    {
+      "part": "camera bracket",
+      "center_xyz_mm": [
+        172.0,
+        9.000000000000007,
+        0.0
+      ],
+      "arc_centers_xyz_mm": [
+        [
+          172.0,
+          5.250000000000005,
+          0.0
+        ],
+        [
+          172.0,
+          12.75000000000001,
+          0.0
+        ]
+      ],
+      "slot_width_mm": 4.500000000000002,
+      "slot_length_mm": 12.000000000000005
+    },
+    {
+      "part": "camera bracket",
+      "center_xyz_mm": [
+        172.0,
+        29.0,
+        0.0
+      ],
+      "arc_centers_xyz_mm": [
+        [
+          172.0,
+          25.250000000000004,
+          0.0
+        ],
+        [
+          172.0,
+          32.75,
+          0.0
+        ]
+      ],
+      "slot_width_mm": 4.500000000000002,
+      "slot_length_mm": 12.000000000000002
+    }
+  ],
+  "requested_gap_mm": 20.0,
+  "measured_gap_mm": 20.0,
+  "case_bounds": [
+    [
+      0.0,
+      0.0,
+      -45.00000000000001
+    ],
+    [
+      132.0,
+      90.00000000000001,
+      -7.105427357601002e-15
+    ]
+  ],
+  "camera_bounds": [
+    [
+      152.0,
+      -3.999999999999993,
+      -46.0
+    ],
+    [
+      194.0,
+      94.0,
+      35.0
+    ]
+  ],
+  "assembly_bounds": [
+    [
+      0.0,
+      -3.999999999999993,
+      -46.0
+    ],
+    [
+      194.0,
+      94.0,
+      35.0
+    ]
+  ],
+  "assembly_size_mm": [
+    194.0,
+    98.0,
+    81.0
+  ],
+  "cross_assembly_interferences": [],
+  "interference_scope": "All solid pairs across the two assemblies; disjoint bounds exclude collisions. Internal checks refer to source reports.",
+  "view_check": {
+    "lens_direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "angle_from_down_deg": 0.0,
+    "lens_front_z_mm": -46.0,
+    "forward_half_space_candidates": [],
+    "unobstructed_forward_half_space": true,
+    "scope": "Mechanical envelopes ahead of the lens front. Real field angle and working distance unmeasured."
+  },
+  "plate_proposal": {
+    "shape": "Union of two XY rectangles; no solid modeled",
+    "underside_z_mm": 0,
+    "thickness_side": "+Z",
+    "main_rectangle_xy": [
+      [
+        -30.0,
+        -8.0
+      ],
+      [
+        140.0,
+        98.00000000000001
+      ]
+    ],
+    "camera_tongue_xy": [
+      [
+        140.0,
+        1.000000000000007
+      ],
+      [
+        187.0,
+        37.0
+      ]
+    ],
+    "bounding_size_xy_mm": [
+      217.0,
+      106.00000000000001
+    ],
+    "nominal_slot_end_margin_mm": 2.0,
+    "lens_forward_clear": true,
+    "clamp_zone_xy": [
+      [
+        -27.0,
+        10.0
+      ],
+      [
+        -3.0,
+        80.00000000000001
+      ]
+    ],
+    "clamp_candidate_center_xy": [
+      -15.0,
+      45.00000000000001
+    ],
+    "clamp_status": "Provisional; requires actual beam section, fasteners and load data",
+    "plane_crossing_candidates": [],
+    "hardware_holes": "Centers only; select plate clearance/tapped diameters for actual M4 fastening scheme."
+  },
+  "service_access": {
+    "corridors": [
+      {
+        "region": "panel and port access +Y",
+        "bounds": [
+          [
+            7.799999999999997,
+            87.00000000000001,
+            -42.0
+          ],
+          [
+            124.2,
+            120.00000000000001,
+            -3.0
+          ]
+        ],
+        "camera_candidates": [],
+        "proposed_plate_overlap": false
+      },
+      {
+        "region": "lid removal -Z",
+        "bounds": [
+          [
+            8.0,
+            0.0,
+            -75.0
+          ],
+          [
+            124.0,
+            87.00000000000001,
+            -42.00000000000001
+          ]
+        ],
+        "camera_candidates": [],
+        "proposed_plate_overlap": false
+      }
+    ],
+    "physical_USB_and_power": "30 mm service allowance; verify plugs, USB termination, bend radius and harness routing",
+    "side_intake_to_camera_x_gap_at_least_mm": 20.0,
+    "ventilated_lid_faces_down": true,
+    "airflow": "No thermal test; keep clamp and harness clear of openings"
+  },
+  "review_flags": {
+    "case_camera_collision": false,
+    "possible_plate_material_conflict": false,
+    "forward_view_needs_review": false,
+    "service_region_needs_review": false
+  }
+}

@@ -1,0 +1,63 @@
+# Vision Swine V2 — SINGLE SOURCE OF TRUTH for detection, tracking, and counting.
+# Place this file under <project_root>/config/vision_swine_v2.yaml.
+# All relative paths below are resolved from <project_root>.
+# TensorRT engine must already exist on your target Jetson (NOT the .pt model).
+model:
+  path: "models/weights22k.engine"
+  task: "segment"
+  input_size: 960
+  # Keep low-confidence detections for ByteTrack's second association step.
+  confidence_threshold: 0.10
+  nms_threshold: 0.45
+  mask_threshold: 0.50
+  max_detections: 100
+
+camera:
+  source: 0
+  width: 640
+  height: 480
+  target_fps: 30
+
+inference:
+  process_every: 1
+  device: "tensorrt"
+
+tracking:
+  method: "bytetrack"
+  track_high_thresh: 0.35
+  track_low_thresh: 0.10
+  new_track_thresh: 0.45
+  track_buffer: 30
+  match_thresh: 0.80
+  fuse_score: true
+  max_miss_frames: 30
+  stable_frames: 3
+  prediction_frames: 2
+
+counting:
+  mode: "line_crossing"
+  direction:
+    in: "BELOW_TO_ABOVE"
+    out: "ABOVE_TO_BELOW"
+  cooldown_seconds: 0.30
+  gate_config: "config/gate.json"
+  # Initial gate geometry. Runtime UI edits stored in gate.json override ONLY these four gate fields.
+  gate:
+    x_left: 130
+    x_right: 490
+    line_y: 178
+    margin: 20
+  lane:
+    x1: 93
+    y1: 43
+    x2: 541
+    y2: 333
+
+stream:
+  enabled: true
+  host: "0.0.0.0"
+  port: 8080
+  jpeg_quality: 80
+
+logging:
+  level: "INFO"

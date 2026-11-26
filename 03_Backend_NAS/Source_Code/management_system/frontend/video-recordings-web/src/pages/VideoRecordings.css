@@ -1,0 +1,72 @@
+/* Scoped layout and typography for the Video Recordings page.
+   All API endpoints and playback behavior are unchanged. */
+.page-block-detected,.page-block-wall{grid-column:1/-1!important;}
+.page-block-detected > div,.page-block-wall > div{min-width:0;}
+.vr-sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;}
+
+.vr-nas-status{display:inline-flex;align-items:center;gap:9px;min-height:35px;padding:7px 13px;border-radius:999px;border:1px solid #dcebe5;background:#f3faf7;color:#407d63;font-size:12px;font-weight:500;line-height:1.4;white-space:nowrap;}
+.vr-nas-status-dot{width:7px;height:7px;flex:0 0 auto;border-radius:50%;background:#58a783;box-shadow:0 0 0 3px #e0f3e9;}
+.vr-nas-status.is-loading{color:#927038;background:#fcf9f0;border-color:#eee3cb;}
+.vr-nas-status.is-loading .vr-nas-status-dot{background:#d5ac58;box-shadow:0 0 0 3px #faecd2;}
+.vr-nas-status.is-error{color:#b85c67;background:#fdf5f6;border-color:#f0dfe3;}
+.vr-nas-status.is-error .vr-nas-status-dot{background:#d47d86;box-shadow:0 0 0 3px #fae5e9;}
+
+/* Original three-filter arrangement, styled to match the typography revision. */
+.vr-filters{display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) auto auto;align-items:end;gap:14px;padding:18px 20px 10px;min-width:0;}
+.vr-filter{display:flex;flex-direction:column;gap:7px;min-width:0;}
+.vr-filter label{font-size:12px;line-height:1.4;font-weight:500;color:#70839c;}
+.vr-filter select{width:100%;height:44px;min-width:0;padding:0 13px;border:1px solid #e2e9f3;border-radius:11px;background:#f8fafd;color:#7488a1;font-family:inherit;font-size:12.5px;font-weight:400;outline:none;}
+.vr-filter select:disabled{opacity:1;background:#f8fafd;color:#8c9aaf;cursor:not-allowed;}
+.vr-filter-note{padding:0 20px 18px;color:#93a1b2;font-size:11.5px;line-height:1.6;}
+.vr-result-count{height:44px;display:inline-flex;align-items:baseline;justify-content:center;gap:6px;min-width:78px;padding:0 14px;border-radius:11px;border:1px solid #e4ecf5;background:#f3f7fc;white-space:nowrap;}
+.vr-result-count strong{font-family:"Inter",var(--font-sans);font-weight:600;font-size:16px;color:#446d9d;}
+.vr-result-count span{font-size:12px;color:#8496ac;}
+.vr-reload{height:44px;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:0 16px;border:1px solid #dce6f2;border-radius:11px;background:#fff;color:#4c729d;font-size:12.5px;font-weight:500;white-space:nowrap;transition:background .15s,border-color .15s;}
+.vr-reload svg{width:17px;height:17px;}
+.vr-reload:hover:not(:disabled){background:#f5f9ff;border-color:#bad2ec;}
+.vr-reload:disabled{opacity:.55;cursor:not-allowed;}
+
+.vr-main-grid{display:grid;grid-template-columns:minmax(0,1.62fr) minmax(330px,1fr);gap:20px;align-items:start;width:100%;}
+.vr-main-grid>.card{min-width:0;}
+.vr-player{padding:0 24px 22px;}
+.vr-player-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:0 0 12px;}
+.vr-player-id{font-family:"Inter",var(--font-sans);font-size:11px;font-weight:600;letter-spacing:.4px;color:#7c91ab;}
+.vr-file-status{font-family:"Inter",var(--font-sans);font-size:10.5px;font-weight:600;letter-spacing:.45px;color:#8290a2;}
+.vr-file-status.is-ready{color:#4b9776;}
+.vr-player-screen{position:relative;width:100%;height:clamp(315px,31vw,495px);min-width:0;overflow:hidden;border-radius:15px;background:#0c1421;}
+.vr-native-video{display:block;width:100%;height:100%;object-fit:contain;background:#0a111d;}
+.vr-player-placeholder{display:grid;place-items:center;width:100%;height:100%;padding:24px;color:#c6d3e3;text-align:center;font-size:13px;}
+.vr-player-alert{position:absolute;left:14px;right:14px;top:14px;z-index:2;border-radius:9px;padding:12px 14px;background:rgba(169,69,79,.95);color:#fff;font-size:12px;}
+.vr-player-meta{display:flex;justify-content:space-between;align-items:flex-start;gap:26px;border-top:1px solid #eff3f8;margin-top:18px;padding:15px 2px 0;}
+.vr-player-file{min-width:0;flex:1;display:flex;flex-direction:column;gap:4px;}
+.vr-meta-label{font-size:11px;font-weight:500;color:#9aa8b8;}
+.vr-player-file strong{font-family:"Inter",var(--font-sans);font-weight:600;font-size:12.5px;line-height:1.5;color:#354961;overflow-wrap:anywhere;}
+.vr-meta-time{font-size:11.5px;color:#8999ad;}
+.vr-player-file-size{display:flex;flex-direction:column;align-items:flex-end;gap:4px;white-space:nowrap;}
+.vr-player-file-size strong{font-family:"Inter",var(--font-sans);font-size:13px;font-weight:600;color:#526b87;}
+
+.vr-list{overflow:auto;max-height:590px;padding:0 13px 13px;scrollbar-color:#d5dfec transparent;}
+.vr-row{display:grid;grid-template-columns:46px minmax(0,1fr) auto;gap:12px;align-items:center;width:100%;padding:12px 11px;margin:2px 0 3px;border-radius:12px;border:1px solid transparent;background:transparent;text-align:left;color:inherit;transition:background .16s,border-color .16s;}
+.vr-row:not(:last-child){border-bottom:1px solid #f1f4f8;}
+.vr-row:hover{background:#f7fafd;border-color:#ebf1f8;}
+.vr-row.selected{background:#f0f6fe;border-color:#dbe9f9;box-shadow:inset 2px 0 0 #77a2d5;}
+.vr-thumb{display:grid;place-items:center;width:46px;height:46px;border-radius:11px;background:linear-gradient(145deg,#e4edf7,#d5e3f2);color:#5887bc;}
+.vr-thumb svg{width:20px;height:20px;}
+.vr-row.selected .vr-thumb{background:linear-gradient(145deg,#cfe1f7,#c1daf4);color:#4477b7;}
+.vr-info{display:flex;flex-direction:column;gap:3px;min-width:0;}
+.vr-info strong{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-family:"Inter",var(--font-sans);font-size:11.8px;font-weight:600;line-height:1.5;color:#354963;}
+.vr-info>span{font-size:11.5px;font-weight:400;color:#7d8fa5;line-height:1.4;}
+.vr-info small{font-family:"Inter",var(--font-sans);font-size:9.8px;font-weight:500;letter-spacing:.1px;line-height:1.5;color:#9eacc0;}
+.vr-info small span{margin:0 3px;}
+.vr-extra{display:flex;flex-direction:column;align-items:flex-end;gap:4px;min-width:57px;color:#8295ac;white-space:nowrap;font-family:"Inter",var(--font-sans);font-size:10.5px;font-weight:500;}
+.vr-extra span:last-child{font-weight:400;color:#a8b3c2;}
+.vr-empty{display:grid;place-items:center;min-height:160px;padding:20px;text-align:center;color:#8a9aaf;font-size:12.5px;}
+.vr-message-error{margin:10px;padding:11px 13px;border:1px solid #f0dce0;border-radius:9px;background:#fff5f6;color:#a14c58;font-size:12px;overflow-wrap:anywhere;}
+@media(max-width:1250px){.vr-main-grid{grid-template-columns:minmax(0,1.38fr) minmax(300px,1fr);}}
+@media(max-width:1020px){.vr-main-grid{grid-template-columns:minmax(0,1fr);}.vr-player-screen{height:clamp(300px,45vw,490px);}.vr-list{max-height:410px;}}
+@media(max-width:1100px){.vr-filters{grid-template-columns:repeat(3,minmax(0,1fr));}.vr-reload,.vr-result-count{justify-self:start;}}
+@media(max-width:780px){.vr-filters{grid-template-columns:repeat(2,minmax(0,1fr));padding:16px 16px 10px;gap:12px;}.vr-filter-note{padding:0 16px 16px;}}
+@media(max-width:640px){.vr-result-count{height:40px;min-width:65px;}.vr-reload{height:40px;padding:0 11px;}.vr-player{padding:0 15px 16px;}.vr-player-screen{height:clamp(225px,54vw,330px);border-radius:12px;}.vr-player-meta{gap:12px;flex-wrap:wrap;}.vr-player-file strong{font-size:11px;}.vr-list{padding:0 9px 9px;}.vr-row{padding:10px 7px;gap:9px;grid-template-columns:40px minmax(0,1fr) auto;}.vr-thumb{width:40px;height:40px;}.vr-extra{font-size:10px;min-width:46px;}.vr-info strong{font-size:10.5px;}.vr-info>span{font-size:10.5px;}}
+@media(prefers-reduced-motion:reduce){.vr-row,.vr-reload{transition:none;}}
+
+@media(max-width:460px){.vr-filters{grid-template-columns:minmax(0,1fr) minmax(0,1fr);}.vr-filter:nth-child(3){grid-column:1/-1;}.vr-reload{justify-self:stretch;}.vr-result-count{justify-self:stretch;}}

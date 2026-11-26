@@ -1,0 +1,618 @@
+{
+  "status": "cad_candidate_hardware_review_required",
+  "units": "mm",
+  "approved_for_print": false,
+  "approved_for_installation": false,
+  "recovery_sha256": "325214db9440afe2ea58711bb17695f24d0dc5a65a56c0bc455140e05d1d5044",
+  "recovery_sources": {
+    "jetson-case-v5": {
+      "status": "review_required",
+      "sha256": "3929d013bdea668beccf3267ccf2c9e0885a5d6a674ac63f48befcef3abf8e46"
+    },
+    "camera-mount-v3": {
+      "status": "review_required",
+      "sha256": "4a665a64e321a1c7d30e56273e7d9ad7ccc2d960802846f8cde065e607374d5b"
+    },
+    "mounting-plate-v2": {
+      "status": "review_required",
+      "sha256": "25742e5d5ef9cadfbb3cbe4eabc1800d10ccedfd65c293235d3cb0cd4ec14525"
+    },
+    "beam-clamp-v1": {
+      "status": "geometry_review_required",
+      "sha256": "761b2b74a0561e14793ff642a4d6709a4689259156f6a21943eb67d04b75312c"
+    }
+  },
+  "open_documents": [
+    {
+      "name": "VISION_SWINE_Beam_Clamp_V1",
+      "active": false,
+      "plate_count": 0,
+      "layout_count": 0,
+      "root_paths": [
+        "Beam_reference:1",
+        "Lower_plate:1",
+        "Upper_plate:1",
+        "Rod_1_ref:1",
+        "Washer_lower_1_ref:1",
+        "Nut_lower_1_ref:1",
+        "Washer_upper_1_ref:1",
+        "Nut_upper_1_ref:1",
+        "Rod_2_ref:1",
+        "Washer_lower_2_ref:1",
+        "Nut_lower_2_ref:1",
+        "Washer_upper_2_ref:1",
+        "Nut_upper_2_ref:1",
+        "Rod_3_ref:1",
+        "Washer_lower_3_ref:1",
+        "Nut_lower_3_ref:1",
+        "Washer_upper_3_ref:1",
+        "Nut_upper_3_ref:1",
+        "Rod_4_ref:1",
+        "Washer_lower_4_ref:1",
+        "Nut_lower_4_ref:1",
+        "Washer_upper_4_ref:1",
+        "Nut_upper_4_ref:1"
+      ]
+    },
+    {
+      "name": "VISION_SWINE_Camera_Mount_V3",
+      "active": false,
+      "plate_count": 0,
+      "layout_count": 0,
+      "root_paths": [
+        "Camera_L_Bracket_V3:1",
+        "ELP-USB4K02AF-KL100W_reference:1",
+        "Camera_screw_head_reference:1"
+      ]
+    },
+    {
+      "name": "VISION_SWINE_Jetson_Case_V5S",
+      "active": false,
+      "plate_count": 0,
+      "layout_count": 0,
+      "root_paths": [
+        "642-13450_PORG_SYS_BOM:1",
+        "682-13450_PORG_ME_THER_ASSY:1",
+        "Jetson_Nano_Case_V5:1",
+        "Jetson_Nano_Front_Panel:1",
+        "Jetson_Nano_Top_Cover:1"
+      ]
+    },
+    {
+      "name": "VISION SWINE Adapter V1",
+      "active": false,
+      "plate_count": 0,
+      "layout_count": 0,
+      "root_paths": [
+        "Adapter_V1:1"
+      ]
+    },
+    {
+      "name": "VISION_SWINE_Mounting_Plate_V2",
+      "active": true,
+      "plate_count": 1,
+      "layout_count": 1,
+      "root_paths": [
+        "VISION_SWINE_Mounting_Layout_V1:1",
+        "Mounting_Plate_V1:1",
+        "Mounting_Plate_V2:1"
+      ]
+    },
+    {
+      "name": "VISION SWINE Adapter V1",
+      "active": false,
+      "plate_count": 0,
+      "layout_count": 0,
+      "root_paths": [
+        "Adapter_V1:1"
+      ]
+    },
+    {
+      "name": "Untitled",
+      "active": false,
+      "plate_count": 0,
+      "layout_count": 0,
+      "root_paths": [
+        "642-13450_PORG_SYS_BOM:1",
+        "682-13450_PORG_ME_THER_ASSY:1"
+      ]
+    },
+    {
+      "name": "Untitled",
+      "active": false,
+      "plate_count": 0,
+      "layout_count": 0,
+      "root_paths": [
+        "642-13450_PORG_SYS_BOM:1",
+        "682-13450_PORG_ME_THER_ASSY:1"
+      ]
+    },
+    {
+      "name": "Untitled",
+      "active": false,
+      "plate_count": 0,
+      "layout_count": 0,
+      "root_paths": []
+    },
+    {
+      "name": "Untitled",
+      "active": false,
+      "plate_count": 0,
+      "layout_count": 0,
+      "root_paths": [
+        "642-13450_PORG_SYS_BOM:1",
+        "682-13450_PORG_ME_THER_ASSY:1"
+      ]
+    },
+    {
+      "name": "Untitled",
+      "active": false,
+      "plate_count": 0,
+      "layout_count": 0,
+      "root_paths": []
+    },
+    {
+      "name": "VISION_SWINE_Adapter_V1",
+      "active": false,
+      "plate_count": 0,
+      "layout_count": 0,
+      "root_paths": [
+        "Adapter_V1:1"
+      ]
+    }
+  ],
+  "source_document": "VISION_SWINE_Mounting_Plate_V2",
+  "lens": {
+    "front_xyz_mm": [
+      173.0,
+      73.0,
+      -46.0
+    ],
+    "angle_from_down_deg": 0.0
+  },
+  "stations_from_registered_recovery": {
+    "reserved": [
+      {
+        "beam_height_mm": 30,
+        "access_from_above": {
+          "[-15.0, 20.000000000000007]": {
+            "head+washer": [],
+            "driver above flange": []
+          },
+          "[-15.0, 70.0]": {
+            "head+washer": [],
+            "driver above flange": []
+          }
+        },
+        "former_nut_hits": [
+          [],
+          []
+        ],
+        "minimum_rod_or_nut_gap_mm": 4.999999999999996,
+        "blocked_lower_sockets_after_plate": [
+          3,
+          4
+        ],
+        "usb_stub_gap_mm": 132.17550678793538,
+        "usb_gap_bound_over_slot_travel_mm": 128.17550678793538,
+        "service_hits": {
+          "panel and port access +Y": [],
+          "lid removal -Z": []
+        },
+        "lens_half_space_candidates": [],
+        "clear_in_planned_sequence": true
+      },
+      {
+        "beam_height_mm": 50,
+        "access_from_above": {
+          "[-15.0, 20.000000000000007]": {
+            "head+washer": [],
+            "driver above flange": []
+          },
+          "[-15.0, 70.0]": {
+            "head+washer": [],
+            "driver above flange": []
+          }
+        },
+        "former_nut_hits": [
+          [],
+          []
+        ],
+        "minimum_rod_or_nut_gap_mm": 14.999999999999996,
+        "blocked_lower_sockets_after_plate": [
+          3,
+          4
+        ],
+        "usb_stub_gap_mm": 132.17550678793538,
+        "usb_gap_bound_over_slot_travel_mm": 128.17550678793538,
+        "service_hits": {
+          "panel and port access +Y": [],
+          "lid removal -Z": []
+        },
+        "lens_half_space_candidates": [],
+        "clear_in_planned_sequence": true
+      },
+      {
+        "beam_height_mm": 80,
+        "access_from_above": {
+          "[-15.0, 20.000000000000007]": {
+            "head+washer": [],
+            "driver above flange": []
+          },
+          "[-15.0, 70.0]": {
+            "head+washer": [],
+            "driver above flange": []
+          }
+        },
+        "former_nut_hits": [
+          [],
+          []
+        ],
+        "minimum_rod_or_nut_gap_mm": 20.49444650053487,
+        "blocked_lower_sockets_after_plate": [
+          3,
+          4
+        ],
+        "usb_stub_gap_mm": 132.17550678793538,
+        "usb_gap_bound_over_slot_travel_mm": 128.17550678793538,
+        "service_hits": {
+          "panel and port access +Y": [],
+          "lid removal -Z": []
+        },
+        "lens_half_space_candidates": [],
+        "clear_in_planned_sequence": true
+      }
+    ],
+    "equipment_envelope_midpoint": [
+      {
+        "beam_height_mm": 30,
+        "access_from_above": {
+          "[97.0, 20.0]": {
+            "head+washer": [],
+            "driver above flange": []
+          },
+          "[97.0, 70.0]": {
+            "head+washer": [],
+            "driver above flange": []
+          }
+        },
+        "former_nut_hits": [
+          [
+            "case/VISION_SWINE_Mounting_Layout_V1:1+VISION_SWINE_Jetson_Case_V5S:1+Jetson_Nano_Case_V5:1/Body1"
+          ],
+          [
+            "case/VISION_SWINE_Mounting_Layout_V1:1+VISION_SWINE_Jetson_Case_V5S:1+Jetson_Nano_Case_V5:1/Body1"
+          ]
+        ],
+        "minimum_rod_or_nut_gap_mm": 4.999999999999996,
+        "blocked_lower_sockets_after_plate": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "usb_stub_gap_mm": 27.583358511722814,
+        "usb_gap_bound_over_slot_travel_mm": 23.583358511722814,
+        "service_hits": {
+          "panel and port access +Y": [],
+          "lid removal -Z": []
+        },
+        "lens_half_space_candidates": [],
+        "clear_in_planned_sequence": true
+      },
+      {
+        "beam_height_mm": 50,
+        "access_from_above": {
+          "[97.0, 20.0]": {
+            "head+washer": [],
+            "driver above flange": []
+          },
+          "[97.0, 70.0]": {
+            "head+washer": [],
+            "driver above flange": []
+          }
+        },
+        "former_nut_hits": [
+          [
+            "case/VISION_SWINE_Mounting_Layout_V1:1+VISION_SWINE_Jetson_Case_V5S:1+Jetson_Nano_Case_V5:1/Body1"
+          ],
+          [
+            "case/VISION_SWINE_Mounting_Layout_V1:1+VISION_SWINE_Jetson_Case_V5S:1+Jetson_Nano_Case_V5:1/Body1"
+          ]
+        ],
+        "minimum_rod_or_nut_gap_mm": 14.999999999999996,
+        "blocked_lower_sockets_after_plate": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "usb_stub_gap_mm": 27.583358511722814,
+        "usb_gap_bound_over_slot_travel_mm": 23.583358511722814,
+        "service_hits": {
+          "panel and port access +Y": [],
+          "lid removal -Z": []
+        },
+        "lens_half_space_candidates": [],
+        "clear_in_planned_sequence": true
+      },
+      {
+        "beam_height_mm": 80,
+        "access_from_above": {
+          "[97.0, 20.0]": {
+            "head+washer": [],
+            "driver above flange": []
+          },
+          "[97.0, 70.0]": {
+            "head+washer": [],
+            "driver above flange": []
+          }
+        },
+        "former_nut_hits": [
+          [
+            "case/VISION_SWINE_Mounting_Layout_V1:1+VISION_SWINE_Jetson_Case_V5S:1+Jetson_Nano_Case_V5:1/Body1"
+          ],
+          [
+            "case/VISION_SWINE_Mounting_Layout_V1:1+VISION_SWINE_Jetson_Case_V5S:1+Jetson_Nano_Case_V5:1/Body1"
+          ]
+        ],
+        "minimum_rod_or_nut_gap_mm": 20.494446500534877,
+        "blocked_lower_sockets_after_plate": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "usb_stub_gap_mm": 27.583358511722814,
+        "usb_gap_bound_over_slot_travel_mm": 23.583358511722814,
+        "service_hits": {
+          "panel and port access +Y": [],
+          "lid removal -Z": []
+        },
+        "lens_half_space_candidates": [],
+        "clear_in_planned_sequence": true
+      }
+    ]
+  },
+  "balance": {
+    "old_xy_mm": [
+      -15,
+      45
+    ],
+    "new_xy_mm": [
+      97,
+      45
+    ],
+    "distance_to_envelope_midpoint_mm": [
+      112,
+      0
+    ],
+    "actual_cg_and_moment": "Unknown until equipment masses and centre of gravity are measured."
+  },
+  "v2_geometry": {
+    "corner_radii_mm": [
+      {
+        "xy": [
+          -30.0,
+          -10.0
+        ],
+        "radius": 3.0000000000000004
+      },
+      {
+        "xy": [
+          192.0,
+          -10.0
+        ],
+        "radius": 3.0000000000000004
+      },
+      {
+        "xy": [
+          192.0,
+          52.0
+        ],
+        "radius": 3.0000000000000004
+      },
+      {
+        "xy": [
+          140.0,
+          52.0
+        ],
+        "radius": 8.0
+      },
+      {
+        "xy": [
+          140.0,
+          98.0
+        ],
+        "radius": 3.0000000000000004
+      },
+      {
+        "xy": [
+          -30.0,
+          98.0
+        ],
+        "radius": 3.0000000000000004
+      }
+    ],
+    "bores": [
+      {
+        "center_xyz_mm": [
+          6.000000000000001,
+          38.0,
+          0
+        ],
+        "diameter_mm": 4.5,
+        "removed_mm3": 95.42587685280887,
+        "through_and_aligned": true
+      },
+      {
+        "center_xyz_mm": [
+          6.000000000000001,
+          28.000000000000004,
+          0
+        ],
+        "diameter_mm": 4.5,
+        "removed_mm3": 95.42587685279432,
+        "through_and_aligned": true
+      },
+      {
+        "center_xyz_mm": [
+          126.00000000000001,
+          38.0,
+          0
+        ],
+        "diameter_mm": 4.499999999999993,
+        "removed_mm3": 95.42587685279432,
+        "through_and_aligned": true
+      },
+      {
+        "center_xyz_mm": [
+          126.00000000000001,
+          28.000000000000004,
+          0
+        ],
+        "diameter_mm": 4.499999999999993,
+        "removed_mm3": 95.42587685277977,
+        "through_and_aligned": true
+      },
+      {
+        "center_xyz_mm": [
+          172.0,
+          9.0,
+          0
+        ],
+        "diameter_mm": 4.500000000000028,
+        "removed_mm3": 95.42587685279432,
+        "through_and_aligned": true
+      },
+      {
+        "center_xyz_mm": [
+          172.0,
+          29.000000000000004,
+          0
+        ],
+        "diameter_mm": 4.500000000000028,
+        "removed_mm3": 95.42587685280887,
+        "through_and_aligned": true
+      }
+    ],
+    "single_connected_solid": true,
+    "bounds_mm": [
+      [
+        -30.0,
+        -10.0,
+        0.0
+      ],
+      [
+        192.0,
+        98.0,
+        6.000000000000001
+      ]
+    ],
+    "volume_mm3": 128955.90934825594,
+    "tongue_sections": [
+      {
+        "x_mm": 140.01,
+        "area_mm2": 417.6007501172256
+      },
+      {
+        "x_mm": 148.01,
+        "area_mm2": 372.00000000000006
+      }
+    ]
+  },
+  "pockets": [
+    {
+      "xy_mm": [
+        97.00000000000001,
+        20.0
+      ],
+      "pilot_d_mm": 5.599999999999987,
+      "z_range_mm": [
+        1.5000000000000009,
+        6.000000000000001
+      ],
+      "floor_mm": 1.5000000000000009,
+      "insert_bottom_z_mm": 2.000000000000001,
+      "screw_tip_z_mm": 3.000000000000001,
+      "nominal_engagement_mm": 3,
+      "tip_to_pocket_floor_mm": 1.5,
+      "removed_mm3": 110.83538881865388
+    },
+    {
+      "xy_mm": [
+        97.00000000000001,
+        70.0
+      ],
+      "pilot_d_mm": 5.599999999999987,
+      "z_range_mm": [
+        1.5000000000000009,
+        6.000000000000001
+      ],
+      "floor_mm": 1.5000000000000009,
+      "insert_bottom_z_mm": 2.000000000000001,
+      "screw_tip_z_mm": 3.000000000000001,
+      "nominal_engagement_mm": 3,
+      "tip_to_pocket_floor_mm": 1.5,
+      "removed_mm3": 110.83538881865388
+    }
+  ],
+  "bounds_mm": [
+    [
+      -30.0,
+      -10.0,
+      0.0
+    ],
+    [
+      192.0,
+      98.0,
+      6.000000000000001
+    ]
+  ],
+  "volume_mm3": 128734.23857061863,
+  "single_connected_solid": true,
+  "original_through_bores_xy_mm": [
+    [
+      6,
+      38
+    ],
+    [
+      6,
+      28
+    ],
+    [
+      126,
+      38
+    ],
+    [
+      126,
+      28
+    ],
+    [
+      172,
+      9
+    ],
+    [
+      172,
+      29
+    ]
+  ],
+  "thickness_mm": 6,
+  "adapter_xy_height_mm": [
+    97,
+    45,
+    47
+  ],
+  "hardware_trial": "Flush M4 insert length 4, pilot diameter 5.6 and depth 4.5; M4x10 with 1 mm washer. OD9 x 5 combined head/washer and OD10 x 30 driver envelopes.",
+  "changed_interference_basis": "Only material removed from V2. Insert lies within original plate thickness. Screw shank OD4 fits OD4.5 flange; upper head and driver bounded by the recovered station envelopes. No hardware below Z=0.",
+  "reinforcement": "6 mm fits the trial stack geometrically. If actual insert depth or pull-out capacity is insufficient, evaluate upward local reinforcement and revise the flange seat, screw length and clamp/socket clearances before use.",
+  "sequence": [
+    "Install flush inserts from above before fitting electronics.",
+    "Fasten adapter to lower clamp plate before setting beam. Tighten M8 nuts before attaching equipment plate.",
+    "Fit the plate beneath the flange. Install both M4x10 screws and washers from above. Remove plate before servicing obstructed lower M8 nuts."
+  ],
+  "limitations": [
+    "Confirm insert supplier pilot, OD, seating, usable thread and PETG pull-out strength; screw and insert tolerances unmeasured.",
+    "Station and cable clearances refer to the verified geometry and USB stub, not real cable bend radius."
+  ]
+}

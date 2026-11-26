@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "VISION SWINE",
+  "description": {"": "Build a separate V3 plate with two blind M4 insert seats and assess the central adapter."},
+  "version": "3.0.0",
+  "supportedOS": "windows",
+  "editEnabled": true
+}

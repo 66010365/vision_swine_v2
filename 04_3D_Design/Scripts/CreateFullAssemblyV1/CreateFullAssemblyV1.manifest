@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "VISION SWINE",
+  "description": {"": "Assemble an unsaved VISION SWINE CAD prototype with the central V3 plate interface."},
+  "version": "1.0.0",
+  "supportedOS": "windows",
+  "editEnabled": true
+}

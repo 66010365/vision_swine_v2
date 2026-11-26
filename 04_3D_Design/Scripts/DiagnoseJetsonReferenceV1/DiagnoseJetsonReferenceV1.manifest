@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "VISION SWINE",
+  "description": {"": "Measure four thermal assembly occurrences and diagnose STEP copy equivalence."},
+  "version": "1.0.0",
+  "supportedOS": "windows",
+  "editEnabled": true
+}

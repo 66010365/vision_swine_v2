@@ -1,0 +1,377 @@
+{
+  "status": "cad_prototype_review_required",
+  "document": "VISION_SWINE_Full_Assembly_V1",
+  "units": "mm",
+  "approved_for_print": false,
+  "approved_for_installation": false,
+  "strength_tested": false,
+  "recovery_sha256": "325214db9440afe2ea58711bb17695f24d0dc5a65a56c0bc455140e05d1d5044",
+  "v3_report_sha256": "01102157a0deb527b8ab81f22563e0087b54f6fd030b092cf0d121882223f5a0",
+  "board_step_sha256": "054c594a8b08185f8aab22e30976f7d7df3f16771455a1485381111e068f279d",
+  "registered_station": {
+    "beam_height_mm": 50,
+    "access_from_above": {
+      "[97.0, 20.0]": {
+        "head+washer": [],
+        "driver above flange": []
+      },
+      "[97.0, 70.0]": {
+        "head+washer": [],
+        "driver above flange": []
+      }
+    },
+    "former_nut_hits": [
+      [
+        "case/VISION_SWINE_Mounting_Layout_V1:1+VISION_SWINE_Jetson_Case_V5S:1+Jetson_Nano_Case_V5:1/Body1"
+      ],
+      [
+        "case/VISION_SWINE_Mounting_Layout_V1:1+VISION_SWINE_Jetson_Case_V5S:1+Jetson_Nano_Case_V5:1/Body1"
+      ]
+    ],
+    "minimum_rod_or_nut_gap_mm": 14.999999999999996,
+    "blocked_lower_sockets_after_plate": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "usb_stub_gap_mm": 27.583358511722814,
+    "usb_gap_bound_over_slot_travel_mm": 23.583358511722814,
+    "service_hits": {
+      "panel and port access +Y": [],
+      "lid removal -Z": []
+    },
+    "lens_half_space_candidates": [],
+    "clear_in_planned_sequence": true
+  },
+  "assembly_sequence": [
+    "Install flush inserts from above before fitting electronics.",
+    "Fasten adapter to lower clamp plate before setting beam. Tighten M8 nuts before attaching equipment plate.",
+    "Fit the plate beneath the flange. Install both M4x10 screws and washers from above. Remove plate before servicing obstructed lower M8 nuts."
+  ],
+  "open_documents": [
+    "VISION_SWINE_Beam_Clamp_V1",
+    "VISION_SWINE_Camera_Mount_V3",
+    "VISION_SWINE_Jetson_Case_V5S",
+    "VISION_SWINE_Adapter_V1",
+    "VISION_SWINE_Mounting_Plate_V3",
+    "VISION_SWINE_Mounting_Layout_V1"
+  ],
+  "new_document_created": true,
+  "registered_pcb_bounds_mm": [
+    [
+      15.999999999999993,
+      4.0,
+      -9.57
+    ],
+    [
+      116.0,
+      83.0,
+      -8.0
+    ]
+  ],
+  "hardware_representation": "Smooth screws, washers and insert envelopes; equipment nuts AF7 within verified OD. Equipment screw tips flush with nuts for CAD reference. M8 rods, washers and nuts copied from Beam Clamp V1.",
+  "central_mount": {
+    "xy_mm": [
+      97,
+      45
+    ],
+    "adapter_bottom_top_mm": [
+      6,
+      53
+    ],
+    "beam_seat_z_mm": 61
+  },
+  "verified_bores_xy_d_z_mm": [
+    [
+      6.000000000000001,
+      38.0,
+      4.5,
+      0.0,
+      6.000000000000001
+    ],
+    [
+      6.000000000000001,
+      28.000000000000004,
+      4.5,
+      0.0,
+      6.000000000000001
+    ],
+    [
+      126.00000000000001,
+      38.0,
+      4.499999999999993,
+      0.0,
+      6.000000000000001
+    ],
+    [
+      126.00000000000001,
+      28.000000000000004,
+      4.499999999999993,
+      0.0,
+      6.000000000000001
+    ],
+    [
+      172.0,
+      9.0,
+      4.500000000000028,
+      0.0,
+      6.000000000000001
+    ],
+    [
+      172.0,
+      29.000000000000004,
+      4.500000000000028,
+      0.0,
+      6.000000000000001
+    ],
+    [
+      97.00000000000001,
+      20.0,
+      5.599999999999987,
+      1.5000000000000009,
+      6.000000000000001
+    ],
+    [
+      97.0,
+      20.0,
+      4.5,
+      6.0,
+      12.000000000000002
+    ],
+    [
+      97.00000000000001,
+      70.0,
+      5.599999999999987,
+      1.5000000000000009,
+      6.000000000000001
+    ],
+    [
+      97.0,
+      70.0,
+      4.5,
+      6.0,
+      12.000000000000002
+    ],
+    [
+      90.0,
+      45.0,
+      8.0,
+      56.49999999999999,
+      61.0
+    ],
+    [
+      90.0,
+      45.0,
+      4.5,
+      53.0,
+      56.49999999999999
+    ],
+    [
+      90.0,
+      45.0,
+      5.6,
+      43.0,
+      53.0
+    ],
+    [
+      103.99999999999999,
+      45.0,
+      8.0,
+      56.49999999999999,
+      61.0
+    ],
+    [
+      103.99999999999999,
+      45.0,
+      4.5,
+      53.0,
+      56.49999999999999
+    ],
+    [
+      103.99999999999999,
+      45.0,
+      5.599999999999998,
+      43.0,
+      53.0
+    ]
+  ],
+  "equipment_axis_errors_mm": [
+    7.944109290391274e-15,
+    7.944109290391274e-15,
+    7.105427357601002e-15,
+    7.105427357601002e-15,
+    7.105427357601002e-15,
+    0.0
+  ],
+  "lens": {
+    "front_mm": [
+      173.0,
+      73.0,
+      -46.0
+    ],
+    "degrees_from_down": 0.0
+  },
+  "minimum_M8_to_plate_or_adapter_mm": 14.999999999999996,
+  "usb_clearance_mm": 27.583358511722814,
+  "interference_hits": [],
+  "live_tool_access": [
+    {
+      "tool": "Flange driver after assembly",
+      "xy_mm": [
+        97,
+        20
+      ],
+      "z_mm": [
+        17,
+        47
+      ],
+      "diameter_mm": 10,
+      "hits": []
+    },
+    {
+      "tool": "Flange driver after assembly",
+      "xy_mm": [
+        97,
+        70
+      ],
+      "z_mm": [
+        17,
+        47
+      ],
+      "diameter_mm": 10,
+      "hits": []
+    },
+    {
+      "tool": "Upper screw key before setting beam",
+      "xy_mm": [
+        90,
+        45
+      ],
+      "z_mm": [
+        60.5,
+        96
+      ],
+      "diameter_mm": 3,
+      "hits": []
+    },
+    {
+      "tool": "Upper screw key before setting beam",
+      "xy_mm": [
+        104,
+        45
+      ],
+      "z_mm": [
+        60.5,
+        96
+      ],
+      "diameter_mm": 3,
+      "hits": []
+    },
+    {
+      "tool": "M8 pass-through before equipment lower",
+      "xy_mm": [
+        57,
+        34
+      ],
+      "z_mm": [
+        -20,
+        51.39999999999999
+      ],
+      "diameter_mm": 20,
+      "hits": []
+    },
+    {
+      "tool": "M8 pass-through before equipment upper",
+      "xy_mm": [
+        57,
+        34
+      ],
+      "z_mm": [
+        120.6,
+        191
+      ],
+      "diameter_mm": 20,
+      "hits": []
+    },
+    {
+      "tool": "M8 pass-through before equipment lower",
+      "xy_mm": [
+        57,
+        56
+      ],
+      "z_mm": [
+        -20,
+        51.39999999999999
+      ],
+      "diameter_mm": 20,
+      "hits": []
+    },
+    {
+      "tool": "M8 pass-through before equipment upper",
+      "xy_mm": [
+        57,
+        56
+      ],
+      "z_mm": [
+        120.6,
+        191
+      ],
+      "diameter_mm": 20,
+      "hits": []
+    },
+    {
+      "tool": "M8 pass-through before equipment lower",
+      "xy_mm": [
+        137,
+        34
+      ],
+      "z_mm": [
+        -20,
+        51.39999999999999
+      ],
+      "diameter_mm": 20,
+      "hits": []
+    },
+    {
+      "tool": "M8 pass-through before equipment upper",
+      "xy_mm": [
+        137,
+        34
+      ],
+      "z_mm": [
+        120.6,
+        191
+      ],
+      "diameter_mm": 20,
+      "hits": []
+    },
+    {
+      "tool": "M8 pass-through before equipment lower",
+      "xy_mm": [
+        137,
+        56
+      ],
+      "z_mm": [
+        -20,
+        51.39999999999999
+      ],
+      "diameter_mm": 20,
+      "hits": []
+    },
+    {
+      "tool": "M8 pass-through before equipment upper",
+      "xy_mm": [
+        137,
+        56
+      ],
+      "z_mm": [
+        120.6,
+        191
+      ],
+      "diameter_mm": 20,
+      "hits": []
+    }
+  ],
+  "scope": "Live hardware, plate, adapter and clamp interfaces; internal M8 clamp checks and source equipment contacts inherited from the verified 50 mm station. New hardware checked against recovered board bounds."
+}

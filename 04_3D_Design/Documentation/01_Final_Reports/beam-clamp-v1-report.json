@@ -1,0 +1,726 @@
+{
+  "status": "geometry_review_required",
+  "units": "mm",
+  "approved_for_print": false,
+  "approved_for_installation": false,
+  "strength_tested": false,
+  "datum": "Beam centred in X and Y, beam spans Z=0..height; metal rods centred at beam mid-height.",
+  "parameters_mm": {
+    "bcBeamW": 50,
+    "bcBeamH": 50,
+    "bcBeamL": 200,
+    "bcPlateW": 110,
+    "bcPlateD": 40,
+    "bcPlateT": 8,
+    "bcCornerR": 3,
+    "bcPitchX": 80,
+    "bcPitchY": 22,
+    "bcHoleD": 9,
+    "bcRodD": 8,
+    "bcRodL": 130,
+    "bcNutAF": 13,
+    "bcNutH": 6.5,
+    "bcNutBore": 8.1,
+    "bcWasherOD": 16,
+    "bcWasherID": 8.4,
+    "bcWasherT": 1.6,
+    "bcToolOD": 20,
+    "bcToolApproach": 30,
+    "bcEndAllowance": 2.5,
+    "bcSideAllowance": 1
+  },
+  "reference_hardware": "Illustrative nut AF13 with smooth clearance bore; flat washers and smooth fully threaded rod envelopes. Confirm actual dimensions, thread engagement and hardware grade.",
+  "ranges": {
+    "requested_height_mm": [
+      30,
+      80
+    ],
+    "maximum_height_by_stack_and_end_allowance_mm": 92.8,
+    "usable_height_interval_within_requested_mm": [
+      30,
+      80
+    ],
+    "minimum_rod_length_at_height_80_mm": 117.2,
+    "width_at_rod_tangency_mm": 72.0,
+    "required_clearance_per_side_mm": 1.0,
+    "maximum_width_with_side_allowance_mm": 70.0,
+    "minimum_structural_width_mm": null,
+    "scope": "Centred straight rectangular beam, positive width up to the clearance limit; narrower beams reduce contact area. No minimum load-bearing width established."
+  },
+  "plate_material_mm": {
+    "hole_to_x_edge": 10.5,
+    "hole_to_y_edge": 4.499999999999999,
+    "rod_to_hole_radial_clearance": 0.4999999999999999
+  },
+  "tool_assumption": "Straight axial OD20 pass-through tool for AF13; verify actual tool bore, socket depth, ratchet swing and approach space on the installation.",
+  "mounting_interface": {
+    "lower_plate_datum_z_mm": -8.0,
+    "construction_footprint_mm": [
+      24,
+      30
+    ],
+    "mounting_plate_v2_reserved_xy_mm": [
+      [
+        -27.0,
+        10.0
+      ],
+      [
+        -3.0,
+        80.00000000000001
+      ]
+    ],
+    "concept": "Separate removable adapter between the central lower face and the reserved V2 area. Hardware and hole pattern deferred. The two coordinate systems are independent.",
+    "placement": "Measure the horizontal assembled CG including wiring; locate beam reaction near its vertical projection and evaluate eccentric moment using actual mass. No final position or load rating."
+  },
+  "stations": [
+    {
+      "beam_height_mm": 30.0,
+      "beam_width_mm": 50.0,
+      "connected_solids": 23,
+      "pair_count": 253,
+      "interferences": [],
+      "plates": {
+        "Lower_plate": {
+          "size_mm": [
+            110.0,
+            40.0,
+            8.0
+          ],
+          "bores_xy_diameter_depth_mm": [
+            [
+              40.0,
+              11.0,
+              9.000000000000004,
+              8.0
+            ],
+            [
+              40.0,
+              -11.0,
+              9.000000000000004,
+              8.0
+            ],
+            [
+              -40.0,
+              11.0,
+              9.000000000000004,
+              8.0
+            ],
+            [
+              -40.0,
+              -11.0,
+              9.000000000000004,
+              8.0
+            ]
+          ],
+          "contact_mm2": 2000.0,
+          "expected_contact_mm2": 2000.0
+        },
+        "Upper_plate": {
+          "size_mm": [
+            110.0,
+            40.0,
+            8.0
+          ],
+          "bores_xy_diameter_depth_mm": [
+            [
+              40.0,
+              11.0,
+              9.000000000000004,
+              7.999999999999998
+            ],
+            [
+              40.0,
+              -11.0,
+              9.000000000000004,
+              7.999999999999998
+            ],
+            [
+              -40.0,
+              11.0,
+              9.000000000000004,
+              7.999999999999998
+            ],
+            [
+              -40.0,
+              -11.0,
+              9.000000000000004,
+              7.999999999999998
+            ]
+          ],
+          "contact_mm2": 2000.0,
+          "expected_contact_mm2": 2000.0
+        }
+      },
+      "tools_and_rod_ends": [
+        {
+          "rod": 1,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 33.9,
+          "minimum_blind_socket_internal_depth_mm": 40.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 1,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 33.9,
+          "minimum_blind_socket_internal_depth_mm": 40.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 2,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 33.9,
+          "minimum_blind_socket_internal_depth_mm": 40.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 2,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 33.9,
+          "minimum_blind_socket_internal_depth_mm": 40.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 3,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 33.9,
+          "minimum_blind_socket_internal_depth_mm": 40.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 3,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 33.9,
+          "minimum_blind_socket_internal_depth_mm": 40.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 4,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 33.9,
+          "minimum_blind_socket_internal_depth_mm": 40.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 4,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 33.9,
+          "minimum_blind_socket_internal_depth_mm": 40.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        }
+      ],
+      "geometry_checks_passed": true
+    },
+    {
+      "beam_height_mm": 50.0,
+      "beam_width_mm": 50.0,
+      "connected_solids": 23,
+      "pair_count": 253,
+      "interferences": [],
+      "plates": {
+        "Lower_plate": {
+          "size_mm": [
+            110.0,
+            40.0,
+            8.0
+          ],
+          "bores_xy_diameter_depth_mm": [
+            [
+              40.0,
+              11.0,
+              9.000000000000004,
+              8.0
+            ],
+            [
+              40.0,
+              -11.0,
+              9.000000000000004,
+              8.0
+            ],
+            [
+              -40.0,
+              11.0,
+              9.000000000000004,
+              8.0
+            ],
+            [
+              -40.0,
+              -11.0,
+              9.000000000000004,
+              8.0
+            ]
+          ],
+          "contact_mm2": 2000.0,
+          "expected_contact_mm2": 2000.0
+        },
+        "Upper_plate": {
+          "size_mm": [
+            110.0,
+            40.0,
+            8.0
+          ],
+          "bores_xy_diameter_depth_mm": [
+            [
+              40.0,
+              11.0,
+              9.000000000000004,
+              7.999999999999998
+            ],
+            [
+              40.0,
+              -11.0,
+              9.000000000000004,
+              7.999999999999998
+            ],
+            [
+              -40.0,
+              11.0,
+              9.000000000000004,
+              7.999999999999998
+            ],
+            [
+              -40.0,
+              -11.0,
+              9.000000000000004,
+              7.999999999999998
+            ]
+          ],
+          "contact_mm2": 2000.0,
+          "expected_contact_mm2": 2000.0
+        }
+      },
+      "tools_and_rod_ends": [
+        {
+          "rod": 1,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.9,
+          "minimum_blind_socket_internal_depth_mm": 30.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 1,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.89999999999999,
+          "minimum_blind_socket_internal_depth_mm": 30.39999999999999,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 2,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.9,
+          "minimum_blind_socket_internal_depth_mm": 30.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 2,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.89999999999999,
+          "minimum_blind_socket_internal_depth_mm": 30.39999999999999,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 3,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.9,
+          "minimum_blind_socket_internal_depth_mm": 30.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 3,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.89999999999999,
+          "minimum_blind_socket_internal_depth_mm": 30.39999999999999,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 4,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.9,
+          "minimum_blind_socket_internal_depth_mm": 30.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 4,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.89999999999999,
+          "minimum_blind_socket_internal_depth_mm": 30.39999999999999,
+          "nut_fully_on_rod_with_end_allowance": true
+        }
+      ],
+      "geometry_checks_passed": true
+    },
+    {
+      "beam_height_mm": 80.0,
+      "beam_width_mm": 50.0,
+      "connected_solids": 23,
+      "pair_count": 253,
+      "interferences": [],
+      "plates": {
+        "Lower_plate": {
+          "size_mm": [
+            110.0,
+            40.0,
+            8.0
+          ],
+          "bores_xy_diameter_depth_mm": [
+            [
+              40.0,
+              11.0,
+              9.000000000000004,
+              8.0
+            ],
+            [
+              40.0,
+              -11.0,
+              9.000000000000004,
+              8.0
+            ],
+            [
+              -40.0,
+              11.0,
+              9.000000000000004,
+              8.0
+            ],
+            [
+              -40.0,
+              -11.0,
+              9.000000000000004,
+              8.0
+            ]
+          ],
+          "contact_mm2": 2000.0,
+          "expected_contact_mm2": 2000.0
+        },
+        "Upper_plate": {
+          "size_mm": [
+            110.0,
+            40.0,
+            8.0
+          ],
+          "bores_xy_diameter_depth_mm": [
+            [
+              40.0,
+              11.0,
+              9.000000000000004,
+              8.000000000000007
+            ],
+            [
+              40.0,
+              -11.0,
+              9.000000000000004,
+              8.000000000000007
+            ],
+            [
+              -40.0,
+              11.0,
+              9.000000000000004,
+              8.000000000000007
+            ],
+            [
+              -40.0,
+              -11.0,
+              9.000000000000004,
+              8.000000000000007
+            ]
+          ],
+          "contact_mm2": 2000.0,
+          "expected_contact_mm2": 2000.0
+        }
+      },
+      "tools_and_rod_ends": [
+        {
+          "rod": 1,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 8.899999999999999,
+          "minimum_blind_socket_internal_depth_mm": 15.399999999999999,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 1,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 8.900000000000006,
+          "minimum_blind_socket_internal_depth_mm": 15.400000000000006,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 2,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 8.899999999999999,
+          "minimum_blind_socket_internal_depth_mm": 15.399999999999999,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 2,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 8.900000000000006,
+          "minimum_blind_socket_internal_depth_mm": 15.400000000000006,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 3,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 8.899999999999999,
+          "minimum_blind_socket_internal_depth_mm": 15.399999999999999,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 3,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 8.900000000000006,
+          "minimum_blind_socket_internal_depth_mm": 15.400000000000006,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 4,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 8.899999999999999,
+          "minimum_blind_socket_internal_depth_mm": 15.399999999999999,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 4,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 8.900000000000006,
+          "minimum_blind_socket_internal_depth_mm": 15.400000000000006,
+          "nut_fully_on_rod_with_end_allowance": true
+        }
+      ],
+      "geometry_checks_passed": true
+    },
+    {
+      "beam_height_mm": 50.0,
+      "beam_width_mm": 70.0,
+      "connected_solids": 23,
+      "pair_count": 253,
+      "interferences": [],
+      "plates": {
+        "Lower_plate": {
+          "size_mm": [
+            110.0,
+            40.0,
+            8.0
+          ],
+          "bores_xy_diameter_depth_mm": [
+            [
+              40.0,
+              11.0,
+              9.000000000000004,
+              8.0
+            ],
+            [
+              40.0,
+              -11.0,
+              9.000000000000004,
+              8.0
+            ],
+            [
+              -40.0,
+              11.0,
+              9.000000000000004,
+              8.0
+            ],
+            [
+              -40.0,
+              -11.0,
+              9.000000000000004,
+              8.0
+            ]
+          ],
+          "contact_mm2": 2480.9584699073403,
+          "expected_contact_mm2": 2800.0
+        },
+        "Upper_plate": {
+          "size_mm": [
+            110.0,
+            40.0,
+            8.0
+          ],
+          "bores_xy_diameter_depth_mm": [
+            [
+              40.0,
+              11.0,
+              9.000000000000004,
+              7.999999999999998
+            ],
+            [
+              40.0,
+              -11.0,
+              9.000000000000004,
+              7.999999999999998
+            ],
+            [
+              -40.0,
+              11.0,
+              9.000000000000004,
+              7.999999999999998
+            ],
+            [
+              -40.0,
+              -11.0,
+              9.000000000000004,
+              7.999999999999998
+            ]
+          ],
+          "contact_mm2": 2480.9584699073403,
+          "expected_contact_mm2": 2800.0
+        }
+      },
+      "tools_and_rod_ends": [
+        {
+          "rod": 1,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.9,
+          "minimum_blind_socket_internal_depth_mm": 30.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 1,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.89999999999999,
+          "minimum_blind_socket_internal_depth_mm": 30.39999999999999,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 2,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.9,
+          "minimum_blind_socket_internal_depth_mm": 30.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 2,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.89999999999999,
+          "minimum_blind_socket_internal_depth_mm": 30.39999999999999,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 3,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.9,
+          "minimum_blind_socket_internal_depth_mm": 30.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 3,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.89999999999999,
+          "minimum_blind_socket_internal_depth_mm": 30.39999999999999,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 4,
+          "side": "lower",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.9,
+          "minimum_blind_socket_internal_depth_mm": 30.4,
+          "nut_fully_on_rod_with_end_allowance": true
+        },
+        {
+          "rod": 4,
+          "side": "upper",
+          "obstacles": [],
+          "centred": true,
+          "seated": true,
+          "rod_projection_beyond_nut_mm": 23.89999999999999,
+          "minimum_blind_socket_internal_depth_mm": 30.39999999999999,
+          "nut_fully_on_rod_with_end_allowance": true
+        }
+      ],
+      "geometry_checks_passed": false
+    }
+  ],
+  "geometry_checks_passed": false
+}

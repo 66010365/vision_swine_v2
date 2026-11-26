@@ -1,0 +1,23 @@
+[Unit]
+Description=VISION SWINE - AI Detection and Weight Estimation
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=jewly
+WorkingDirectory=/home/jewly/vision_swine_v2
+
+Environment=PYTHONPATH=/home/jewly/vision_swine_v2/src
+Environment=PYTHONUNBUFFERED=1
+
+ExecStart=/home/jewly/vision_swine_v2/.venv/bin/python -m vision_swine.main
+
+Restart=on-failure
+RestartSec=10
+
+KillSignal=SIGINT
+TimeoutStopSec=180
+
+[Install]
+WantedBy=multi-user.target
